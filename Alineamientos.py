@@ -316,7 +316,7 @@ def AlinearRiesgos():
                 print("archivo_salida1: ",os.path.exists(archivo_salida))
                 print("archivo_salida1: ", os.path.exists(archivo_salida2))
                 print("archivo_salida1: ", os.path.exists(archivo_salida3))
-                
+
                 resultados = list(bpio.parse(archivo_salida, 'blast-text'))
                 resultados2 = list(bpio.parse(archivo_salida2, 'blast-text'))
                 resultados3 = list(bpio.parse(archivo_salida3, 'blast-text'))
@@ -441,8 +441,8 @@ def AnalizarA():
 
 def Main():
     print("1: Obteniendo datos y agrupandolos por riesgo, espere por favor ...")
-    Limpiar(archivos_agrupados)  # Solo una vez al iniciar y lo dejo xq lo necesita MSA
-    Limpiar(archivos_agrupados_gen)
+    #Limpiar(archivos_agrupados)  # Solo una vez al iniciar y lo dejo xq lo necesita MSA
+    #Limpiar(archivos_agrupados_gen)
     Limpiar(archivos_temp)
     # Revisar que los archivos no se esten regrabando xq darian error
     AgruparRiesgos()
