@@ -289,10 +289,13 @@ def AlinearRiesgos():
                 # Eliminar archivos de salida existentes
                 if os.path.exists(archivo_salida):
                     os.remove(archivo_salida)
+                    print("se ha eliminado: ", archivo_salida)
                 if os.path.exists(archivo_salida2):
                     os.remove(archivo_salida2)
+                    print("se ha eliminado: ", archivo_salida2)
                 if os.path.exists(archivo_salida3):
                     os.remove(archivo_salida3)
+                    print("se ha eliminado: ", archivo_salida3)
                 #result = run(['blastp', '-query', 'BD/HPV16E1.fasta', '-subject', 'BD/low_riskE1.fasta', '-out','BD/HPV16E1_high_vs_E1_low.blast'], stdout=PIPE)
                 blast1 = ["blastp", "-query", archivo_high, "-subject", archivo_low, "-out", archivo_salida]
                 blast2 = ["blastp", "-query", archivo_high, "-subject", archivo_unspecified, "-out", archivo_salida2]
