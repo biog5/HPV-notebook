@@ -340,21 +340,18 @@ def AlinearRiesgos():
                 archivo_salida = "BD/" + genoma + gen + "_high_vs_" + gen + "_low.blast"
                 archivo_salida2 = "BD/" + genoma + gen + "_high_vs_" + gen + "_unspecified.blast"
                 archivo_salida3 = "BD/" + genoma + gen + "_high_vs_" + gen + "_high.blast"
-
-                result = subprocess.run(
-                    "blastp -query " + archivo_high + " -subject " + archivo_low + " -out " + archivo_salida,
-                    stdout=PIPE)
+                #result = run(['blastp', '-query', 'BD/HPV16E1.fasta', '-subject', 'BD/low_riskE1.fasta', '-out','BD/HPV16E1_high_vs_E1_low.blast'], stdout=PIPE)
+                blast1 = ["blastp", "-query", archivo_high, "-subject", archivo_low, "-out ", archivo_salida]
+                blast2 = ["blastp", "-query", archivo_high, "-subject", archivo_unspecified, "-out ", archivo_salida2]
+                blast3 = ["blastp", "-query", archivo_high, "-subject", archivo_high2, "-out ", archivo_salida3]
+                # correr
+                result = subprocess.run(blast1,stdout=PIPE)
                 print("Corriendo BLASTP ---> Cepa:", genoma, " Proteina:", gen, " Contra grupo: Bajo riego ")
-                result2 = subprocess.run(
-                    "blastp -query " + archivo_high + " -subject " + archivo_unspecified + " -out " + archivo_salida2,
-                    stdout=PIPE)
+                result2 = subprocess.run(blast2,stdout=PIPE)
                 print("Corriendo BLASTP ---> Cepa:", genoma, " Proteina:", gen, " Contra grupo: No especificado riego ")
-
-                result3 = subprocess.run(
-                    "blastp -query " + archivo_high + " -subject " + archivo_high2 + " -out " + archivo_salida3,
-                    stdout=PIPE)
+                result3 = subprocess.run(blast3,stdout=PIPE)
                 print("Corriendo BLASTP ---> Cepa:", genoma, " Proteina:", gen, " Contra grupo: Alto riego ")
-
+                print(blast1)
                 archivos_temp.append(archivo_salida)
                 archivos_temp.append(archivo_salida2)
                 archivos_temp.append(archivo_salida3)
