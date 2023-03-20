@@ -1,0 +1,123 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  high_riskE7_modelo.hmm
+# target sequence database:        unspecified_riskE7.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       high_riskE7_seed_msa  [M=101]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------    -----------
+    2.4e-41  128.7   5.1    2.8e-41  128.6   5.1    1.0  1  AAZ39492.1   E7 protein [Human papillomavirus type 68a]
+    6.3e-40  124.2   8.1    6.9e-40  124.1   8.1    1.0  1  AAA79500.1   transforming protein E7 [human papillomavirus 66
+    1.1e-38  120.3   2.9    1.2e-38  120.1   2.9    1.0  1  BAA90736.1   E7 [human papillomavirus 82]
+      6e-38  117.9   7.9    6.6e-38  117.7   7.9    1.0  1  NP_041845.1  early protein [Human papillomavirus type 53]
+    4.4e-35  108.7   7.4    4.8e-35  108.5   7.4    1.0  1  CAA63883.1   E7 [human papillomavirus 73]
+
+
+Domain annotation for each sequence (and alignments):
+>> AAZ39492.1  E7 protein [Human papillomavirus type 68a]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  128.6   5.1   2.8e-41   2.8e-41       1     100 [.       1     108 [.       1     109 [. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 128.6 bits;  conditional E-value: 2.8e-41
+  high_riskE7_seed_msa   1 mrGekptlqeivldlePea....vdllcyeqlsdsseeedeid.evd.....rpagqaeparanykivtvcckcestlrlvvestkedl 79 
+                           m+G+kpt+qeivl+l+P++    vdl+c+eql+ds++e de d +v+     + a+++e++r  + i+++cckc++ l+lvve+++++l
+            AAZ39492.1   1 MHGPKPTVQEIVLELCPYNeiqpVDLVCHEQLGDSDDEIDEPDhAVNhhqhlLLARRDEQQR--HRIQCLCCKCNKALQLVVEASRDNL 87 
+                           9****************999999*******************97898999888999999999..************************* PP
+
+  high_riskE7_seed_msa  80 rtlqqlllgtlsivcPlcaqk 100
+                           rtlqql++++l++vcP+ca++
+            AAZ39492.1  88 RTLQQLFMDSLNFVCPWCATE 108
+                           *******************86 PP
+
+>> AAA79500.1  transforming protein E7 [human papillomavirus 66]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  124.1   8.1   6.9e-40   6.9e-40       1     100 [.       1     104 [.       1     105 [] 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 124.1 bits;  conditional E-value: 6.9e-40
+  high_riskE7_seed_msa   1 mrGekptlqeivldlePea.vdllcyeqlsdsseeedeidevd......rpagqaeparanykivtvcckcestlrlvvestkedlrtl 82 
+                           m+G+ ptlqe++l+l P++ +dl+c+eql dsse+ede de+d      + a+qae+++  y i++ cckce +++l ++stke+lr++
+            AAA79500.1   1 MHGKVPTLQEVILELAPQTeIDLQCNEQL-DSSEDEDE-DEIDhllerpQQARQAEQHK-CYLIHVPCCKCELVVQLDIQSTKEELRVV 86 
+                           9*****************99*********.88888888.88888777433344555444.5**************************** PP
+
+  high_riskE7_seed_msa  83 qqlllgtlsivcPlcaqk 100
+                           qqll+g+l+++cPlca++
+            AAA79500.1  87 QQLLMGALTVTCPLCASS 104
+                           ****************86 PP
+
+>> BAA90736.1  E7 [human papillomavirus 82]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  120.1   2.9   1.2e-38   1.2e-38       1     100 [.       1     100 []       1     100 [] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 120.1 bits;  conditional E-value: 1.2e-38
+  high_riskE7_seed_msa   1 mrGekptlqeivldlePea.vdllcyeqlsdsseeedeidevd.rpagqaeparanykivtvcckcestlrlvvestkedlrtlqqlll 87 
+                           mrG+ p l++ivl+l+P++ +dl+cyeq+ dss+eede+d++  +pa+qa +++  y i++ cc+c s+++l+ves+ + lr++qq+ll
+            BAA90736.1   1 MRGNVPQLKDIVLELTPQPeIDLQCYEQF-DSSDEEDEVDNMRdQPARQAGQDT-CYRIKVHCCRCSSVVQLAVESSGDSLRIFQQMLL 87 
+                           9*****************99********9.9999******8744*********9.9********************************* PP
+
+  high_riskE7_seed_msa  88 gtlsivcPlcaqk 100
+                           g ls+vcP+ca++
+            BAA90736.1  88 GDLSLVCPWCATN 100
+                           ***********85 PP
+
+>> NP_041845.1  early protein [Human papillomavirus type 53]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  117.7   7.9   6.6e-38   6.6e-38       1     100 [.       1     104 [.       1     105 [] 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 117.7 bits;  conditional E-value: 6.6e-38
+  high_riskE7_seed_msa   1 mrGekptlqeivldlePea.vdllcyeqlsdsseeedeidevd...rpagqaeparan..ykivtvcckcestlrlvvestkedlrtlq 83 
+                           m+G+ ptl +++++l P++ +dl+c+eql+ s+ +ede devd   +  +qa+ ++++  y i t cc+ces ++l+v+s++++lr+lq
+           NP_041845.1   1 MHGNVPTLPQYIIELIPQTeIDLQCHEQLNSSE-DEDE-DEVDhlqEQPQQARRDEQHpcYLIETQCCRCESLVQLAVQSSTKELRILQ 87 
+                           9*****************99*********6665.6666.666633243446666666688***************************** PP
+
+  high_riskE7_seed_msa  84 qlllgtlsivcPlcaqk 100
+                           q+l+gt+++vcPlca++
+           NP_041845.1  88 QMLMGTVELVCPLCATR 104
+                           ***************97 PP
+
+>> CAA63883.1  E7 [human papillomavirus 73]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  108.5   7.4   4.8e-35   4.8e-35       1     100 [.       1      96 [.       1      97 [] 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 108.5 bits;  conditional E-value: 4.8e-35
+  high_riskE7_seed_msa   1 mrGekptlqeivldlePea.vdllcyeqlsdsseeedeidevdrpagqaeparanykivtvcckcestlrlvvestkedlrtlqqlllg 88 
+                           m+G+k+tlq+i ldl+P + +dl+cye l +s+ +ede+d  ++ ++qae +   y ivt c+kc+ t+ l++es k dlr++++ll+g
+            CAA63883.1   1 MHGKKTTLQDITLDLKPTTeIDLTCYESLDNSE-DEDETD--SHLDRQAEREC--YRIVTDCTKCQCTVCLAIESNKADLRVIEELLMG 84 
+                           9*****************99*********6666.888865..47899999888..********************************** PP
+
+  high_riskE7_seed_msa  89 tlsivcPlcaqk 100
+                           tl+ivcP+c+++
+            CAA63883.1  85 TLGIVCPNCSRN 96 
+                           *********985 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (101 nodes)
+Target sequences:                          5  (517 residues searched)
+Passed MSV filter:                         5  (1); expected 0.1 (0.02)
+Passed bias filter:                        5  (1); expected 0.1 (0.02)
+Passed Vit filter:                         5  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         5  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  5  [actual number of targets]
+Domain search space  (domZ):               5  [number of targets reported over threshold]
+# CPU time: 0.01u 0.01s 00:00:00.02 Elapsed: 00:00:00.01
+# Mc/sec: 3.14
+//
+[ok]

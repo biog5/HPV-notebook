@@ -1,0 +1,235 @@
+BLASTP 2.10.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: User specified sequence set (Input: BD/low_riskE2.fasta).
+           5 sequences; 1,864 total letters
+
+
+
+Query= CAA54852.1 ORF putative E2 [human papillomavirus 59]
+
+Length=370
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+AAO15458.1 putative regulatory protein E2 [human papillomavirus 74]   204        3e-66
+AAA46930.1 regulatory protein [human papillomavirus 11]               197        9e-64
+CAF05786.1 E2 protein [human papillomavirus 43]                       194        1e-62
+NP_040299.1 regulatory protein E2 [Human papillomavirus type 6b]      194        1e-62
+AAA79460.1 regulatory protein E2 [human papillomavirus 44]            179        7e-57
+
+
+> AAO15458.1 putative regulatory protein E2 [human papillomavirus 
+74]
+Length=381
+
+ Score = 204 bits (519),  Expect = 3e-66, Method: Compositional matrix adjust.
+ Identities = 139/392 (35%), Positives = 195/392 (50%), Gaps = 40/392 (10%)
+
+Query  5    MDTLSQRLSVLQDQILEHYENDSKDINEHINYWKLVRMENVILFAARENNIHTLNHQVVP  64
+            M+T+++ L V Q+Q+LE YE +S ++ +HI +WK VR E+V+L  AR+  +H +  QVVP
+Sbjct  1    METIAKHLDVCQEQLLELYEENSNNLEKHIQHWKCVRHESVLLHKARQMGLHHIGMQVVP  60
+
+Query  65   TFLVSKNKACEAIELQSNRTSTVMPCFLKHFLGAVCHSSWHVSCIVHCSFLN--SVCAKL  122
+               VS+ K  EAIE+Q       +   LK   G      W +       +L     C K 
+Sbjct  61   PLAVSQTKGHEAIEMQ-----MTLETLLKSAYGM---EPWTLQDTSREMWLAPPKYCFKK  112
+
+Query  123  SNAI------CSKENTMHYTSWTFIYYVNDVGQWCKTTGNVDFWGLYYKVEEEQVYYVKF  176
+                      C  +N M Y  W FIY + D  +W K  G VD+ GLYY     + YY  F
+Sbjct  113  QGQTVEVKYDCKADNIMEYVMWKFIYIL-DGDEWVKVEGQVDYRGLYYVQGGYKTYYTNF  171
+
+Query  177  IHDAKKYGTTDKWEVHYNGKVIDCYDSMCSTSDEQVSTAGSSEQLSYPSAT-----PPEA  231
+              +AKKYG T +WEV     VI C  +  S++ + VS AG +   SYP+ T      P  
+Sbjct  172  ETEAKKYGNTLQWEVCVGSTVI-CSPASVSSTVQDVSIAGPA---SYPTTTTFAQAAPTV  227
+
+Query  232  TYLGPQTWNRQTKTGKRPRQCGYTQHPQSTSV------------SVDYCDNPVVRLHPGN  279
+            +    +  +      KRPR      +  + +             SVD  +N ++  H  N
+Sbjct  228  STTAAED-HVDAPPSKRPRGRSTNTNTTNNTNNTRSTVCITNGDSVDSANNNIIANHYNN  286
+
+Query  280  NPRRHIPCSNTTPIIHLKGDKNGLKCLRYRLRKVH-WLFENISSTWHWTGNRGSAKTGIL  338
+            N  R       TPI+ L+GD N LKC RYRL   H  LF + SSTWHWT      K  ++
+Sbjct  287  NKGRDNCYCRATPIVQLQGDPNCLKCFRYRLHDKHKHLFLSASSTWHWTSPTIPTKHALV  346
+
+Query  339  TLTYTSETQRNEFLDTVKIPNSVQIHVGYMSV  370
+            TLTY +E QR +FLDTV++P ++   +GYMS+
+Sbjct  347  TLTYANEQQRQQFLDTVRLPTTISYKLGYMSL  378
+
+
+> AAA46930.1 regulatory protein [human papillomavirus 11]
+Length=367
+
+ Score = 197 bits (501),  Expect = 9e-64, Method: Compositional matrix adjust.
+ Identities = 135/383 (35%), Positives = 196/383 (51%), Gaps = 36/383 (9%)
+
+Query  5    MDTLSQRLSVLQDQILEHYENDSKDINEHINYWKLVRMENVILFAARENNIHTLNHQVVP  64
+            M+ +++RL   QDQ+LE YE +S DI++HI +WK +R+E+V+L  A++  +  +  QVVP
+Sbjct  1    MEAIAKRLDACQDQLLELYEENSIDIHKHIMHWKCIRLESVLLHKAKQMGLSHIGLQVVP  60
+
+Query  65   TFLVSKNKACEAIELQSNRTSTVMPCFLKH--FLGAVCHSSWHVSCIVHCSFLNSVCAKL  122
+               VS+ K   AIE+Q +  S     +      L    +  W ++    C        ++
+Sbjct  61   PLTVSETKGHNAIEMQMHLESLAKTQYGVEPWTLQDTSYEMW-LTPPKRCFKKQGNTVEV  119
+
+Query  123  SNAICSKENTMHYTSWTFIYYVNDVGQWCKTTGNVDFWGLYYKVEEEQVYYVKFIHDAKK  182
+                C ++N M Y  WT IY + D   W K T +VD  G+YY   + + YYV F  +A+K
+Sbjct  120  KFDGC-EDNVMEYVVWTHIY-LQDNDSWVKVTSSVDAKGIYYTCGQFKTYYVNFNKEAQK  177
+
+Query  183  YGTTDKWEVHYNGKVIDCYDSMCSTSDEQVSTAGSS----EQLSYPS----------ATP  228
+            YG+T+ WEV Y   VI C  +  S++  +VS A  +     Q + P+          + P
+Sbjct  178  YGSTNHWEVCYGSTVI-CSPASVSSTVREVSIAEPTTYTPAQTTAPTVSACTTEDGVSAP  236
+
+Query  229  PEATYLGPQTWNRQTKTGKRPRQCGYTQHPQSTSVSVDYCDNPVVRLHPGNNPRRHIPCS  288
+            P     GP T N       R               SVD   N +V  +   + RR+   S
+Sbjct  237  PRKRARGPSTNNTLCVANIR---------------SVDSTINNIVTDNYNKHQRRNNCHS  281
+
+Query  289  NTTPIIHLKGDKNGLKCLRYRLR-KVHWLFENISSTWHWTGNRGSAKTGILTLTYTSETQ  347
+              TPI+ L+GD N LKC RYRL  K   LFE  SSTWHW       K  I+TLTY+SE Q
+Sbjct  282  AATPIVQLQGDSNCLKCFRYRLNDKYKHLFELASSTWHWASPEAPHKNAIVTLTYSSEEQ  341
+
+Query  348  RNEFLDTVKIPNSVQIHVGYMSV  370
+            R +FL++VKIP +++  VG+MS+
+Sbjct  342  RQQFLNSVKIPPTIRHKVGFMSL  364
+
+
+> CAF05786.1 E2 protein [human papillomavirus 43]
+Length=371
+
+ Score = 194 bits (494),  Expect = 1e-62, Method: Compositional matrix adjust.
+ Identities = 138/382 (36%), Positives = 200/382 (52%), Gaps = 28/382 (7%)
+
+Query  5    MDTLSQRLSVLQDQILEHYENDSKDINEHINYWKLVRMENVILFAARENNIHTLNHQVVP  64
+            M+TL++RL + Q+Q+LE YE DSK + +H+ +WK +R E  + + ARE  I  L HQVVP
+Sbjct  1    METLARRLDMCQEQLLELYEKDSKTLEDHVLHWKYIRYECALYYKAREAGIKHLGHQVVP  60
+
+Query  65   TFLVSKNKACEAIELQSNRTSTVMPCFLKHFLGAVCHSSWHVSCIVHCSFLNSVCAKLSN  124
+               VS+ KA  AIELQ +     +   L+        +    S  V  +       K   
+Sbjct  61   QLEVSRQKAYLAIELQMS-----LEALLQTEYSLEPWTLQDTSQEVWLTEPQKCFKKRGQ  115
+
+Query  125  AI-----CSKENTMHYTSWTFIYYVNDVGQWCKTTGNVDFWGLYYKVEEEQVYYVKFIHD  179
+             +     C+  N MHYT W+ IY V     W K +G+VD+ GL Y V  ++ YYV+F  +
+Sbjct  116  TVEVRYDCNPANAMHYTLWSDIY-VPLNSTWLKVSGHVDYEGLSYTVCGQKHYYVEFHKE  174
+
+Query  180  AKKYGTTDKWEVHYNGKVIDCYDSMCSTSDEQVSTAGSSEQLSYPSATPPEATYLGPQTW  239
+            A+ YG T +W V     VI    +  S++  +VS+  S+E  + P+ T P++T       
+Sbjct  175  ARTYGETGQWNVVMGSNVIYS-PASVSSTVSEVSSVASTESDTGPATTVPDSTCTQKADC  233
+
+Query  240  NRQTKTGKRPRQCGYTQHPQSTSV----------SVDYCDNPVVRLHPGNNPRRHIPCSN  289
+              Q    KR R       P +T +          SVD  D+ +V  H  ++PR H   S+
+Sbjct  234  QEQAPPRKRVRF-----DPHTTPIADLARTVGRGSVDSSDSRLVPKHTDHHPRGHNRGSH  288
+
+Query  290  TTPIIHLKGDKNGLKCLRYRLRKVHWLFENISSTWHWTGN-RGSAKTGILTLTYTSETQR  348
+            TTPII L+G+ N LKC RYRL K   LF ++SSTW WT        T ++TLTY SE QR
+Sbjct  289  TTPIIQLQGEANALKCFRYRLNKHKHLFADVSSTWRWTTECNNKTNTALITLTYISEQQR  348
+
+Query  349  NEFLDTVKIPNSVQIHVGYMSV  370
+             +FL  VKIP +++  +G +++
+Sbjct  349  ADFLSRVKIPITIKQCLGALTM  370
+
+
+> NP_040299.1 regulatory protein E2 [Human papillomavirus type 
+6b]
+Length=368
+
+ Score = 194 bits (493),  Expect = 1e-62, Method: Compositional matrix adjust.
+ Identities = 128/375 (34%), Positives = 200/375 (53%), Gaps = 19/375 (5%)
+
+Query  5    MDTLSQRLSVLQDQILEHYENDSKDINEHINYWKLVRMENVILFAARENNIHTLNHQVVP  64
+            M+ +++RL   Q+Q+LE YE +S D+++H+ +WK +R E+V+L+ A++  +  +  QVVP
+Sbjct  1    MEAIAKRLDACQEQLLELYEENSTDLHKHVLHWKCMRHESVLLYKAKQMGLSHIGMQVVP  60
+
+Query  65   TFLVSKNKACEAIELQSNRTSTVMPCFLKH--FLGAVCHSSWHVSCIVHCSFLNSVCAKL  122
+               VS+ K   AIE+Q +  S +   +      L    +  W       C        ++
+Sbjct  61   PLKVSEAKGHNAIEMQMHLESLLRTEYSMEPWTLQETSYEMWQTP-PKRCFKKRGKTVEV  119
+
+Query  123  SNAICSKENTMHYTSWTFIYYVNDVGQWCKTTGNVDFWGLYYKVEEEQVYYVKFIHDAKK  182
+                C+  NTM Y  WT + YV D   W K    VD  G+YY   + + YYV F+ +A+K
+Sbjct  120  KFDGCAN-NTMDYVVWTDV-YVQDNDTWVKVHSMVDAKGIYYTCGQFKTYYVNFVKEAEK  177
+
+Query  183  YGTTDKWEVHYNGKVIDCYDSMCSTSDEQVSTAGSSEQLSYPSATPPE-ATYLGPQTWNR  241
+            YG+T  WEV Y   VI C  +  S++ ++VS   S+      + TP + +T +   T   
+Sbjct  178  YGSTKHWEVCYGSTVI-CSPASVSSTTQEVSIPEST------TYTPAQTSTLVSSSTKED  230
+
+Query  242  QTKTGKRPRQCGYTQHP-QSTSVS----VDYCDNPVVRLHPGNNPRRHIPCSNTTPIIHL  296
+              +T  R R  G  Q P  +  V+    VD  ++ ++  +   + RR+   S+ TPI+  
+Sbjct  231  AVQTPPRKRARGVQQSPCNALCVAHIGPVDSGNHNLITNNHDQHQRRNNSNSSATPIVQF  290
+
+Query  297  KGDKNGLKCLRYRLRKVHW-LFENISSTWHWTGNRGSAKTGILTLTYTSETQRNEFLDTV  355
+            +G+ N LKC RYRL   H  LF+ ISSTWHW  ++   K  I+T+TY SE QR +FLD V
+Sbjct  291  QGESNCLKCFRYRLNDRHRHLFDLISSTWHWASSKAPHKHAIVTVTYDSEEQRQQFLDVV  350
+
+Query  356  KIPNSVQIHVGYMSV  370
+            KIP ++   +G+MS+
+Sbjct  351  KIPPTISHKLGFMSL  365
+
+
+> AAA79460.1 regulatory protein E2 [human papillomavirus 44]
+Length=377
+
+ Score = 179 bits (455),  Expect = 7e-57, Method: Compositional matrix adjust.
+ Identities = 131/389 (34%), Positives = 191/389 (49%), Gaps = 38/389 (10%)
+
+Query  5    MDTLSQRLSVLQDQILEHYENDSKDINEHINYWKLVRMENVILFAARENNIHTLNHQVVP  64
+            M+T+++ L V Q+Q+LE YE +S  + +HI +WK +R E V+L  A++  ++ +  QVVP
+Sbjct  1    METIAKHLDVCQEQLLELYEENSNKLTKHIQHWKCIRYECVLLHKAKQMGLNHIGMQVVP  60
+
+Query  65   TFLVSKNKACEAIELQSNRTSTVMPCFLKHFLGAVCHSSWHVSCIVHCSFLN--SVCAKL  122
+               VS+ K  +AIE+Q       +   L    G      W +       +L     C K 
+Sbjct  61   ALAVSQTKGHQAIEMQ-----MTLETLLNSDYGT---EPWTLQETSREMWLTPPKYCFKK  112
+
+Query  123  SNAI------CSKENTMHYTSWTFIYYVNDVGQWCKTTGNVDFWGLYYKVEEEQVYYVKF  176
+                      C+ +N M Y  W  IY V D  +W K TG++D+ GLYY     + YY  F
+Sbjct  113  QGQTVEVKFDCNADNAMEYVWWKVIY-VFDTDKWVKVTGHIDYKGLYYVHGGHKTYYTNF  171
+
+Query  177  IHDAKKYGTTDKWEVHYNGKVIDCYDSMCSTSDEQVSTAGSSEQ--------LSYPSATP  228
+              +A+KYG + +WEV     +I C  +  S++ + VS AG +          L+  S+T 
+Sbjct  172  EKEAEKYGNSLQWEVCIGSSII-CSPASISSTVQDVSIAGPASHSSSSTTTTLAQASSTL  230
+
+Query  229  PEATYLGPQTWNRQTKTGKRPRQCGYTQHPQSTSV------SVDYCDNPVVRLHPGNNPR  282
+            P    +G           KRPR      +    +V      SVD  +N ++     +N  
+Sbjct  231  P----IGTAEDCVDAPPCKRPRGPPTNTNNARNTVCVRNSDSVDSTNNNILPNSYNSNKG  286
+
+Query  283  RHIPCSNTTPIIHLKGDKNGLKCLRYRLR-KVHWLFENISSTWHWTGNRGSAKTGILTLT  341
+            R       TP++ L+GD N LKCLRYRL  K   LF   SSTW WT +  S+   ++TLT
+Sbjct  287  RDNNYCTATPVVQLQGDANCLKCLRYRLHAKYKTLFVAASSTWRWTCSDTSSN-ALVTLT  345
+
+Query  342  YTSETQRNEFLDTVKIPNSVQIHVGYMSV  370
+            Y  E QR +FL+TVK+P  V   VGYMS+
+Sbjct  346  YVDEQQRQQFLNTVKLPPKVTYKVGYMSL  374
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.131    0.422    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 545811
+
+
+  Database: User specified sequence set (Input: BD/low_riskE2.fasta).
+    Posted date:  Unknown
+  Number of letters in database: 1,864
+  Number of sequences in database:  5
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,909 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_32027</BlastOutput_query-ID>
+  <BlastOutput_query-def>AAZ39494.1 E2 protein [Human papillomavirus type 68a]</BlastOutput_query-def>
+  <BlastOutput_query-len>370</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_32027</Iteration_query-ID>
+  <Iteration_query-def>AAZ39494.1 E2 protein [Human papillomavirus type 68a]</Iteration_query-def>
+  <Iteration_query-len>370</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1TUE|B</Hit_id>
+  <Hit_def>The X-ray Structure of the Papillomavirus Helicase in Complex with its Molecular Matchmaker E2 [Human papillomavirus type 18] &gt;pdb|1TUE|E The X-ray Structure of the Papillomavirus Helicase in Complex with its Molecular Matchmaker E2 [Human papillomavirus type 18] &gt;pdb|1TUE|G The X-ray Structure of the Papillomavirus Helicase in Complex with its Molecular Matchmaker E2 [Human papillomavirus type 18] &gt;pdb|1TUE|J The X-ray Structure of the Papillomavirus Helicase in Complex with its Molecular Matchmaker E2 [Human papillomavirus type 18] &gt;pdb|1TUE|L The X-ray Structure of the Papillomavirus Helicase in Complex with its Molecular Matchmaker E2 [Human papillomavirus type 18] &gt;pdb|1TUE|Q The X-ray Structure of the Papillomavirus Helicase in Complex with its Molecular Matchmaker E2 [Human papillomavirus type 18]</Hit_def>
+  <Hit_accession>1TUE_B</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>243.432</Hsp_bit-score>
+      <Hsp_score>620</Hsp_score>
+      <Hsp_evalue>2.78218e-79</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>ETMMETLSQRLNVLQEKILEHYEQDSKCIQDHINYWNCVRLENAIYYAARERGMHNIDHQVVPPVNISKTKAYQAIELQMALESLAKTAYSAEEWTLRDTSNELWHTKPKQCFKKHGVTVEVWYDGDKSNSMHYVVWGTIYFKNSTDTWCKTQGRVDYWGVYYMYEQQKTYYERFMQDAQLYGTSGKWDVHYNGNIIHCPDSMCSTTDGKVSTT</Hsp_qseq>
+      <Hsp_hseq>QTPKETLSERLSALQDKIIDHYENDSKDIDSQIQYWQLIRWENAIFFAAREHGIQTLNHQVVPAYNISKSKAHKAIELQMALQGLAQSAYKTEDWTLQDTCEELWNTEPTHCFKKGGQTVQVYFDGNKDNCMTYVAWDSVYYMTDAGTWDKTATCVSHRGLYYVKEGYNTFYIEFKSECEKYGNTGTWEVHFGNNVIDCNDSMCSTSDDTVSAT</Hsp_hseq>
+      <Hsp_midline>+T  ETLS+RL+ LQ+KI++HYE DSK I   I YW  +R ENAI++AARE G+  ++HQVVP  NISK+KA++AIELQMAL+ LA++AY  E+WTL+DT  ELW+T+P  CFKK G TV+V++DG+K N M YV W ++Y+     TW KT   V + G+YY+ E   T+Y  F  + + YG +G W+VH+  N+I C DSMCST+D  VS T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|2NNU|A</Hit_id>
+  <Hit_def>Crystal Structure of the Papillomavirus DNA Tethering Complex E2:Brd4 [Human papillomavirus type 16]</Hit_def>
+  <Hit_accession>2NNU_A</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.616</Hsp_bit-score>
+      <Hsp_score>540</Hsp_score>
+      <Hsp_evalue>2.19719e-67</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>METLSQRLNVLQEKILEHYEQDSKCIQDHINYWNCVRLENAIYYAARERGMHNIDHQVVPPVNISKTKAYQAIELQMALESLAKTAYSAEEWTLRDTSNELWHTKPKQCFKKHGVTVEVWYDGDKSNSMHYVVWGTIYFKNSTDTWCKTQGRVDYWGVYYMYEQQKTYYERFMQDAQLYGTSGKWDVHYNGNIIHCPDSMCS</Hsp_qseq>
+      <Hsp_hseq>METLCQRLNVCQDKILTHYENDSTDLRDHIDYWKHMRLECAIYYKAREMGFKHINHQVVPTLAVSKNKALQAIELQLTLETIYNSQYSNEKWTLQDVSLEVYLTAPTGCIKKHGYTVEVQFDGDICNTMHYTNWTHIYICEEASV-TVVEGQVDYYGLYYVHEGIRTYFVQFKDDAEKYSKNKVWEVHAGGQVILCPTSVFS</Hsp_hseq>
+      <Hsp_midline>METL QRLNV Q+KIL HYE DS  ++DHI+YW  +RLE AIYY ARE G  +I+HQVVP + +SK KA QAIELQ+ LE++  + YS E+WTL+D S E++ T P  C KKHG TVEV +DGD  N+MHY  W  IY           +G+VDY+G+YY++E  +TY+ +F  DA+ Y  +  W+VH  G +I CP S+ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|1DTO|A</Hit_id>
+  <Hit_def>Crystal Structure Of The Complete Transactivation Domain Of E2 Protein From The Human Papillomavirus Type 16 [Human papillomavirus type 16]</Hit_def>
+  <Hit_accession>1DTO_A</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.616</Hsp_bit-score>
+      <Hsp_score>540</Hsp_score>
+      <Hsp_evalue>3.71321e-67</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>METLSQRLNVLQEKILEHYEQDSKCIQDHINYWNCVRLENAIYYAARERGMHNIDHQVVPPVNISKTKAYQAIELQMALESLAKTAYSAEEWTLRDTSNELWHTKPKQCFKKHGVTVEVWYDGDKSNSMHYVVWGTIYFKNSTDTWCKTQGRVDYWGVYYMYEQQKTYYERFMQDAQLYGTSGKWDVHYNGNIIHCPDSMCS</Hsp_qseq>
+      <Hsp_hseq>METLCQRLNVCQDKILTHYENDSTDLRDHIDYWKHMRLECAIYYKAREMGFKHINHQVVPTLAVSKNKALQAIELQLTLETIYNSQYSNEKWTLQDVSLEVYLTAPTGCIKKHGYTVEVQFDGDICNTMHYTNWTHIYICEEASV-TVVEGQVDYYGLYYVHEGIRTYFVQFKDDAEKYSKNKVWEVHAGGQVILCPTSVFS</Hsp_hseq>
+      <Hsp_midline>METL QRLNV Q+KIL HYE DS  ++DHI+YW  +RLE AIYY ARE G  +I+HQVVP + +SK KA QAIELQ+ LE++  + YS E+WTL+D S E++ T P  C KKHG TVEV +DGD  N+MHY  W  IY           +G+VDY+G+YY++E  +TY+ +F  DA+ Y  +  W+VH  G +I CP S+ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|1R6N|A</Hit_id>
+  <Hit_def>HPV11 E2 TAD complex crystal structure [human papillomavirus 11]</Hit_def>
+  <Hit_accession>1R6N_A</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>9.59765e-62</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>ETLSQRLNVLQEKILEHYEQDSKCIQDHINYWNCVRLENAIYYAARERGMHNIDHQVVPPVNISKTKAYQAIELQMALESLAKTAYSAEEWTLRDTSNELWHTKPKQCFKKHGVTVEVWYDGDKSNSMHYVVWGTIYFKNSTDTWCKTQGRVDYWGVYYMYEQQKTYYERFMQDAQLYGTSGKWDVHYNGNIIHCPDSMCS</Hsp_qseq>
+      <Hsp_hseq>EAIAKRLDACQDQLLELYEENSIDIHKHIMHWKCIRLESVLLHKAKQMGLSHIGLQVVPPLTVSETKGHNAIEMQMHLESLAKTQYGVEPWTLQDTSYEMWLTPPKRCFKKQGNTVEVKFDGCEDNVMEYVVWTHIYLQDN-DSWVKVTSSVDAKGIYYTCGQFKTYYVNFNKEAQKYGSTNHWEVCYGSTVICSPASVSS</Hsp_hseq>
+      <Hsp_midline>E +++RL+  Q+++LE YE++S  I  HI +W C+RLE+ + + A++ G+ +I  QVVPP+ +S+TK + AIE+QM LESLAKT Y  E WTL+DTS E+W T PK+CFKK G TVEV +DG + N M YVVW  IY +++ D+W K    VD  G+YY   Q KTYY  F ++AQ YG++  W+V Y   +I  P S+ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|1R6K|A</Hit_id>
+  <Hit_def>HPV11 E2 TAD crystal structure [human papillomavirus 11]</Hit_def>
+  <Hit_accession>1R6K_A</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.978</Hsp_bit-score>
+      <Hsp_score>502</Hsp_score>
+      <Hsp_evalue>1.22019e-61</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>ETLSQRLNVLQEKILEHYEQDSKCIQDHINYWNCVRLENAIYYAARERGMHNIDHQVVPPVNISKTKAYQAIELQMALESLAKTAYSAEEWTLRDTSNELWHTKPKQCFKKHGVTVEVWYDGDKSNSMHYVVWGTIYFKNSTDTWCKTQGRVDYWGVYYMYEQQKTYYERFMQDAQLYGTSGKWDVHYNGNIIHCPDSMCS</Hsp_qseq>
+      <Hsp_hseq>EAIAKRLDACQDQLLELYEENSIDIHKHIMHWKCIRLESVLLHKAKQMGLSHIGLQVVPPLTVSETKGHNAIEMQMHLESLAKTQYGVEPWTLQDTSYEMWLTPPKRCFKKQGNTVEVKFDGCEDNVMEYVVWTHIYLQDN-DSWVKVTSSVDAKGIYYTCGQFKTYYVNFNKEAQKYGSTNHWEVCYGSTVICSPASVSS</Hsp_hseq>
+      <Hsp_midline>E +++RL+  Q+++LE YE++S  I  HI +W C+RLE+ + + A++ G+ +I  QVVPP+ +S+TK + AIE+QM LESLAKT Y  E WTL+DTS E+W T PK+CFKK G TVEV +DG + N M YVVW  IY +++ D+W K    VD  G+YY   Q KTYY  F ++AQ YG++  W+V Y   +I  P S+ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|1QQH|A</Hit_id>
+  <Hit_def>2.1 A CRYSTAL STRUCTURE OF THE HUMAN PAPILLOMAVIRUS TYPE 18 E2 ACTIVATION DOMAIN [Human papillomavirus type 18]</Hit_def>
+  <Hit_accession>1QQH_A</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.918</Hsp_bit-score>
+      <Hsp_score>398</Hsp_score>
+      <Hsp_evalue>6.06824e-47</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>KTKAYQAIELQMALESLAKTAYSAEEWTLRDTSNELWHTKPKQCFKKHGVTVEVWYDGDKSNSMHYVVWGTIYFKNSTDTWCKTQGRVDYWGVYYMYEQQKTYYERFMQDAQLYGTSGKWDVHYNGNIIHCPDSMCSTTDGKVS</Hsp_qseq>
+      <Hsp_hseq>KSKAHKAIELQMALQGLAQSAYKTEDWTLQDTCEELWNTEPTHCFKKGGQTVQVYFDGNKDNCMTYVAWDSVYYMTDAGTWDKTATCVSHRGLYYVKEGYNTFYIEFKSECEKYGNTGTWEVHFGNNVIDCNDSMCSTSDDTVS</Hsp_hseq>
+      <Hsp_midline>K+KA++AIELQMAL+ LA++AY  E+WTL+DT  ELW+T+P  CFKK G TV+V++DG+K N M YV W ++Y+     TW KT   V + G+YY+ E   T+Y  F  + + YG +G W+VH+  N+I C DSMCST+D  VS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|2JEU|A</Hit_id>
+  <Hit_def>Transcription activator structure reveals redox control of a replication initiation reaction [Deltapapillomavirus 4]</Hit_def>
+  <Hit_accession>2JEU_A</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.354</Hsp_bit-score>
+      <Hsp_score>355</Hsp_score>
+      <Hsp_evalue>9.27706e-40</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>METLSQRLNVLQEKILEHYEQDSKCIQDHINYWNCVRLENAIYYAARERGMHNIDHQVVPPVNISKTKAYQAIELQMALESLAKTAYSAEEWTLRDTSNELWHTKPKQCFKKHGVTVEVWYDGDKSNSMHYVVWGTIYFKNSTDTWCKTQGRVDYWGVYY--MYEQQKTYYERFMQDAQLYGTSGKWDV</Hsp_qseq>
+      <Hsp_hseq>METACERLHVAQETQMQLIEKSSDKLQDHILYWTAVRTENTLLYAARKKGVTVLGHCRVPHSVVCQERAKQAIEMQLSLQELSKTEFGDEPWSLLDTSWDRYMSEPKRCFKKGARVVEVEFDGNASNTNWYTVYSNLYMR-TEDGWQLAKAGADGTGLYYCTMAGAGRIYYSRFGDEAARFSTTGHYSV</Hsp_hseq>
+      <Hsp_midline>MET  +RL+V QE  ++  E+ S  +QDHI YW  VR EN + YAAR++G+  + H  VP   + + +A QAIE+Q++L+ L+KT +  E W+L DTS + + ++PK+CFKK    VEV +DG+ SN+  Y V+  +Y + + D W   +   D  G+YY  M    + YY RF  +A  + T+G + V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|2JEX|A</Hit_id>
+  <Hit_def>Transcription activator structure reveals redox control of a replication initiation reaction [Deltapapillomavirus 4]</Hit_def>
+  <Hit_accession>2JEX_A</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.043</Hsp_bit-score>
+      <Hsp_score>349</Hsp_score>
+      <Hsp_evalue>8.18758e-39</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>METLSQRLNVLQEKILEHYEQDSKCIQDHINYWNCVRLENAIYYAARERGMHNIDHQVVPPVNISKTKAYQAIELQMALESLAKTAYSAEEWTLRDTSNELWHTKPKQCFKKHGVTVEVWYDGDKSNSMHYVVWGTIYFKNSTDTWCKTQGRVDYWGVYY--MYEQQKTYYERFMQDAQLYGTSGKWDV</Hsp_qseq>
+      <Hsp_hseq>METACERLHVAQETQMQLIEKSSDKLQDHILYWTAVRTENTLLYAARKKGVTVLGHCRVPHSVVCQERAKQAIEMQLSLQELSKTEFGDEPWSLLDTSWDRYMSEPKRCFKKGARVVEVEFDGNASNTNWYTVYSNLYMR-TEDGWQLAKAGADGTGLYYCTMAGAGRIYYSAFGDEAARFSTTGHYSV</Hsp_hseq>
+      <Hsp_midline>MET  +RL+V QE  ++  E+ S  +QDHI YW  VR EN + YAAR++G+  + H  VP   + + +A QAIE+Q++L+ L+KT +  E W+L DTS + + ++PK+CFKK    VEV +DG+ SN+  Y V+  +Y + + D W   +   D  G+YY  M    + YY  F  +A  + T+G + V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|1F9F|A</Hit_id>
+  <Hit_def>CRYSTAL STRUCTURE OF THE HPV-18 E2 DNA-BINDING DOMAIN [Human papillomavirus type 18] &gt;pdb|1F9F|B CRYSTAL STRUCTURE OF THE HPV-18 E2 DNA-BINDING DOMAIN [Human papillomavirus type 18] &gt;pdb|1F9F|C CRYSTAL STRUCTURE OF THE HPV-18 E2 DNA-BINDING DOMAIN [Human papillomavirus type 18] &gt;pdb|1F9F|D CRYSTAL STRUCTURE OF THE HPV-18 E2 DNA-BINDING DOMAIN [Human papillomavirus type 18] &gt;pdb|1JJ4|A Human papillomavirus type 18 E2 DNA-binding domain bound to its DNA target [Human papillomavirus type 18] &gt;pdb|1JJ4|B Human papillomavirus type 18 E2 DNA-binding domain bound to its DNA target [Human papillomavirus type 18]</Hit_def>
+  <Hit_accession>1F9F_A</Hit_accession>
+  <Hit_len>83</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>3.58941e-29</Hsp_evalue>
+      <Hsp_query-from>291</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>TPIVHLKGDKNGLKCLRYRLQKHNALYDNISCTWHWIRGRGSTNTGILTVTYVSEAQRDKFLETVKLPSSVTVSLGYMTL</Hsp_qseq>
+      <Hsp_hseq>TPIIHLKGDRNSLKCLRYRLRKHSDHYRDISSTWHWT-GAGNEKTGILTVTYHSETQRTKFLNTVAIPDSVQILVGYMTM</Hsp_hseq>
+      <Hsp_midline>TPI+HLKGD+N LKCLRYRL+KH+  Y +IS TWHW  G G+  TGILTVTY SE QR KFL TV +P SV + +GYMT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|1DHM|A</Hit_id>
+  <Hit_def>DNA-BINDING DOMAIN OF E2 FROM HUMAN PAPILLOMAVIRUS-31, NMR, MINIMIZED AVERAGE STRUCTURE [human papillomavirus 31] &gt;pdb|1DHM|B DNA-BINDING DOMAIN OF E2 FROM HUMAN PAPILLOMAVIRUS-31, NMR, MINIMIZED AVERAGE STRUCTURE [human papillomavirus 31]</Hit_def>
+  <Hit_accession>1DHM_A</Hit_accession>
+  <Hit_len>83</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.686</Hsp_bit-score>
+      <Hsp_score>265</Hsp_score>
+      <Hsp_evalue>3.0166e-28</Hsp_evalue>
+      <Hsp_query-from>290</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>TTPIVHLKGDKNGLKCLRYRLQKHNALYDNISCTWHWIRGRGSTNTGILTVTYVSEAQRDKFLETVKLPSSVTVSLGYMTL</Hsp_qseq>
+      <Hsp_hseq>TTPIIHLKGDANILKCLRYRLSKYKQLYEQVSSTWHWTCTDGKHKNAIVTLTYISTSQRDDFLNTVKIPNTVSVSTGYMTI</Hsp_hseq>
+      <Hsp_midline>TTPI+HLKGD N LKCLRYRL K+  LY+ +S TWHW    G     I+T+TY+S +QRD FL TVK+P++V+VS GYMT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|1A7G|E</Hit_id>
+  <Hit_def>The Crystal Structure Of The E2 Dna-Binding Domain From Human Papillomavirus At 2.4 Angstroms [human papillomavirus 31]</Hit_def>
+  <Hit_accession>1A7G_E</Hit_accession>
+  <Hit_len>82</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>2.74979e-27</Hsp_evalue>
+      <Hsp_query-from>290</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>TTPIVHLKGDKNGLKCLRYRLQKHNALYDNISCTWHWIRGRGSTNTGILTVTYVSEAQRDKFLETVKLPSSVTVSLGYMTL</Hsp_qseq>
+      <Hsp_hseq>TTPIIHLKGDANILKCLRYRLSKYKQLYEQVSSTWHWTCTDGKHKNAIVTLTYISTSQRDDFLNTVVIPNTVSVSTGYMTI</Hsp_hseq>
+      <Hsp_midline>TTPI+HLKGD N LKCLRYRL K+  LY+ +S TWHW    G     I+T+TY+S +QRD FL TV +P++V+VS GYMT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|1BY9|A</Hit_id>
+  <Hit_def>Crystal Structure Of The E2 Dna-Binding Domain From Human Papillomavirus Type-16: Implications For Its Dna Binding- Site Selection Mechanism [Human papillomavirus type 16]</Hit_def>
+  <Hit_accession>1BY9_A</Hit_accession>
+  <Hit_len>81</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>6.74261e-26</Hsp_evalue>
+      <Hsp_query-from>290</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>TTPIVHLKGDKNGLKCLRYRLQKHNALYDNISCTWHWIRGRGSTNTGILTVTYVSEAQRDKFLETVKLPSSVTVSLGYMTL</Hsp_qseq>
+      <Hsp_hseq>TTPIVHLKGDANTLKCLRYRFKKHCTLYTAVSSTWHWTGHNVKHKSAIVTLTYDSEWQRDQFLSQVKIPKTITVSTGFMSI</Hsp_hseq>
+      <Hsp_midline>TTPIVHLKGD N LKCLRYR +KH  LY  +S TWHW        + I+T+TY SE QRD+FL  VK+P ++TVS G+M++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|3MI7|X</Hit_id>
+  <Hit_def>Chain X, Regulatory protein E2 [Human papillomavirus type 16]</Hit_def>
+  <Hit_accession>3MI7_X</Hit_accession>
+  <Hit_len>85</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>8.72227e-26</Hsp_evalue>
+      <Hsp_query-from>287</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>CGDTTPIVHLKGDKNGLKCLRYRLQKHNALYDNISCTWHWIRGRGSTNTGILTVTYVSEAQRDKFLETVKLPSSVTVSLGYMTL</Hsp_qseq>
+      <Hsp_hseq>VSNTTPIVELKGDANTLKCLRYRFKKHSTLYTAVSSTWHWTGHNVKHKSAIVTLTYDSEWQRDQFLSQVKIPKTITVSTGFMSI</Hsp_hseq>
+      <Hsp_midline>  +TTPIV LKGD N LKCLRYR +KH+ LY  +S TWHW        + I+T+TY SE QRD+FL  VK+P ++TVS G+M++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|2Q79|A</Hit_id>
+  <Hit_def>Crystal Structure of single chain E2C from HPV16 with a 12aa linker for monomerization. [Human papillomavirus type 16]</Hit_def>
+  <Hit_accession>2Q79_A</Hit_accession>
+  <Hit_len>93</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>9.46548e-26</Hsp_evalue>
+      <Hsp_query-from>290</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>TTPIVHLKGDKNGLKCLRYRLQKHNALYDNISCTWHWIRGRGSTNTGILTVTYVSEAQRDKFLETVKLPSSVTVSLGYMTL</Hsp_qseq>
+      <Hsp_hseq>TTPIVHLKGDANTLKCLRYRFKKHCTLYTAVSSTWHWTGHNVKHKSAIVTLTYDSEWQRDQFLSQVKIPKTITVSTGFMSI</Hsp_hseq>
+      <Hsp_midline>TTPIVHLKGD N LKCLRYR +KH  LY  +S TWHW        + I+T+TY SE QRD+FL  VK+P ++TVS G+M++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|1R8P|A</Hit_id>
+  <Hit_def>Chain A, Regulatory protein E2 [Human papillomavirus type 16] &gt;pdb|1R8P|B Chain B, Regulatory protein E2 [Human papillomavirus type 16] &gt;pdb|1ZZF|A Chain A, Regulatory protein E2 [Human papillomavirus type 16] &gt;pdb|1ZZF|B Chain B, Regulatory protein E2 [Human papillomavirus type 16]</Hit_def>
+  <Hit_accession>1R8P_A</Hit_accession>
+  <Hit_len>81</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>2.48412e-25</Hsp_evalue>
+      <Hsp_query-from>291</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>TPIVHLKGDKNGLKCLRYRLQKHNALYDNISCTWHWIRGRGSTNTGILTVTYVSEAQRDKFLETVKLPSSVTVSLGYMTL</Hsp_qseq>
+      <Hsp_hseq>TPIVHLKGDANTLKCLRYRFKKHCTLYTAVSSTWHWTGHNVKHKSAIVTLTYDSEWQRDQFLSQVKIPKTITVSTGFMSI</Hsp_hseq>
+      <Hsp_midline>TPIVHLKGD N LKCLRYR +KH  LY  +S TWHW        + I+T+TY SE QRD+FL  VK+P ++TVS G+M++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|1R8H|A</Hit_id>
+  <Hit_def>Comparison of the structure and DNA binding properties of the E2 proteins from an oncogenic and a non-oncogenic human papillomavirus [Human papillomavirus type 6a] &gt;pdb|1R8H|B Comparison of the structure and DNA binding properties of the E2 proteins from an oncogenic and a non-oncogenic human papillomavirus [Human papillomavirus type 6a] &gt;pdb|1R8H|C Comparison of the structure and DNA binding properties of the E2 proteins from an oncogenic and a non-oncogenic human papillomavirus [Human papillomavirus type 6a] &gt;pdb|1R8H|D Comparison of the structure and DNA binding properties of the E2 proteins from an oncogenic and a non-oncogenic human papillomavirus [Human papillomavirus type 6a] &gt;pdb|1R8H|E Comparison of the structure and DNA binding properties of the E2 proteins from an oncogenic and a non-oncogenic human papillomavirus [Human papillomavirus type 6a] &gt;pdb|1R8H|F Comparison of the structure and DNA binding properties of the E2 proteins from an oncogenic and a non-oncogenic human papillomavirus [Human papillomavirus type 6a] &gt;pdb|2AYB|A Crystal structure of HPV6a E2 DNA Binding Domain bound to a 16 base pair DNA target [Human papillomavirus type 6a] &gt;pdb|2AYB|B Crystal structure of HPV6a E2 DNA Binding Domain bound to a 16 base pair DNA target [Human papillomavirus type 6a] &gt;pdb|2AYE|A Crystal structure of the unliganded E2 DNA Binding Domain from HPV6a [Human papillomavirus type 6a] &gt;pdb|2AYE|B Crystal structure of the unliganded E2 DNA Binding Domain from HPV6a [Human papillomavirus type 6a] &gt;pdb|2AYE|C Crystal structure of the unliganded E2 DNA Binding Domain from HPV6a [Human papillomavirus type 6a] &gt;pdb|2AYE|D Crystal structure of the unliganded E2 DNA Binding Domain from HPV6a [Human papillomavirus type 6a] &gt;pdb|2AYE|E Crystal structure of the unliganded E2 DNA Binding Domain from HPV6a [Human papillomavirus type 6a] &gt;pdb|2AYE|F Crystal structure of the unliganded E2 DNA Binding Domain from HPV6a [Human papillomavirus type 6a] &gt;pdb|2AYG|A Crystal structure of HPV6a E2 DNA binding domain bound to an 18 base pair DNA target [Human papillomavirus type 6a] &gt;pdb|2AYG|B Crystal structure of HPV6a E2 DNA binding domain bound to an 18 base pair DNA target [Human papillomavirus type 6a]</Hit_def>
+  <Hit_accession>1R8H_A</Hit_accession>
+  <Hit_len>87</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>1.07868e-19</Hsp_evalue>
+      <Hsp_query-from>291</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>TPIVHLKGDKNGLKCLRYRLQ-KHNALYDNISCTWHWIRGRGSTNTGILTVTYVSEAQRDKFLETVKLPSSVTVSLGYMTL</Hsp_qseq>
+      <Hsp_hseq>TPIVQFQGESNCLKCFRYRLNDKHRHLFDLISSTWHWASPKAPHKHAIVTVTYHSEEQRQQFLNVVKIPPTIRHKLGFMSM</Hsp_hseq>
+      <Hsp_midline>TPIV  +G+ N LKC RYRL  KH  L+D IS TWHW   +      I+TVTY SE QR +FL  VK+P ++   LG+M++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|1JJH|A</Hit_id>
+  <Hit_def>E2 DNA-binding Domain from Bovine Papillomavirus Type 1 [Deltapapillomavirus 4] &gt;pdb|1JJH|B E2 DNA-binding Domain from Bovine Papillomavirus Type 1 [Deltapapillomavirus 4] &gt;pdb|1JJH|C E2 DNA-binding Domain from Bovine Papillomavirus Type 1 [Deltapapillomavirus 4]</Hit_def>
+  <Hit_accession>1JJH_A</Hit_accession>
+  <Hit_len>86</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>2.10851e-06</Hsp_evalue>
+      <Hsp_query-from>296</Hsp_query-from>
+      <Hsp_query-to>364</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>LKGDKNGLKCLRYRLQK-HNALYDNISCTWHWIRGRGSTNTGI--LTVTYVSEAQRDKFLETVKLPSSVTVS</Hsp_qseq>
+      <Hsp_hseq>ISGTANQVKCYRFRVKKNHRHRYENCTTTWFTVADNGAERQGQAQILITFGSPSQRQDFLKHVPLPPGMNIS</Hsp_hseq>
+      <Hsp_midline>+ G  N +KC R+R++K H   Y+N + TW  +   G+   G   + +T+ S +QR  FL+ V LP  + +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|6BUS|1</Hit_id>
+  <Hit_def>Extended E2 DNA-binding domain of the Bovine Papillomavirus-1 [Deltapapillomavirus 4] &gt;pdb|6BUS|2 Extended E2 DNA-binding domain of the Bovine Papillomavirus-1 [Deltapapillomavirus 4] &gt;pdb|6BUS|3 Extended E2 DNA-binding domain of the Bovine Papillomavirus-1 [Deltapapillomavirus 4] &gt;pdb|6BUS|4 Extended E2 DNA-binding domain of the Bovine Papillomavirus-1 [Deltapapillomavirus 4]</Hit_def>
+  <Hit_accession>6BUS_1</Hit_accession>
+  <Hit_len>103</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.30938e-06</Hsp_evalue>
+      <Hsp_query-from>296</Hsp_query-from>
+      <Hsp_query-to>364</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>LKGDKNGLKCLRYRLQK-HNALYDNISCTWHWIRGRGSTNTGI--LTVTYVSEAQRDKFLETVKLPSSVTVS</Hsp_qseq>
+      <Hsp_hseq>ISGTANQVKCYRFRVKKNHRHRYENCTTTWFTVADNGAERQGQAQILITFGSPSQRQDFLKHVPLPPGMNIS</Hsp_hseq>
+      <Hsp_midline>+ G  N +KC R+R++K H   Y+N + TW  +   G+   G   + +T+ S +QR  FL+ V LP  + +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|2BOP|A</Hit_id>
+  <Hit_def>CRYSTAL STRUCTURE AT 1.7 ANGSTROMS OF THE BOVINE PAPILLOMAVIRUS-1 E2 DNA-BINDING DOMAIN BOUND TO ITS DNA TARGET [Deltapapillomavirus 4]</Hit_def>
+  <Hit_accession>2BOP_A</Hit_accession>
+  <Hit_len>85</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>2.45498e-06</Hsp_evalue>
+      <Hsp_query-from>296</Hsp_query-from>
+      <Hsp_query-to>364</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>LKGDKNGLKCLRYRLQK-HNALYDNISCTWHWIRGRGSTNTGI--LTVTYVSEAQRDKFLETVKLPSSVTVS</Hsp_qseq>
+      <Hsp_hseq>ISGTANQVKCYRFRVKKNHRHRYENCTTTWFTVADNGAERQGQAQILITFGSPSQRQDFLKHVPLPPGMNIS</Hsp_hseq>
+      <Hsp_midline>+ G  N +KC R+R++K H   Y+N + TW  +   G+   G   + +T+ S +QR  FL+ V LP  + +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|1DBD|A</Hit_id>
+  <Hit_def>Chain A, REGULATORY PROTEIN E2 [Deltapapillomavirus 4] &gt;pdb|1DBD|B Chain B, REGULATORY PROTEIN E2 [Deltapapillomavirus 4]</Hit_def>
+  <Hit_accession>1DBD_A</Hit_accession>
+  <Hit_len>100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>2.75397e-06</Hsp_evalue>
+      <Hsp_query-from>296</Hsp_query-from>
+      <Hsp_query-to>364</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>LKGDKNGLKCLRYRLQK-HNALYDNISCTWHWIRGRGSTNTGI--LTVTYVSEAQRDKFLETVKLPSSVTVS</Hsp_qseq>
+      <Hsp_hseq>ISGTANQVKCYRFRVKKNHRHRYENCTTTWFTVADNGAERQGQAQILITFGSPSQRQDFLKHVPLPPGMNIS</Hsp_hseq>
+      <Hsp_midline>+ G  N +KC R+R++K H   Y+N + TW  +   G+   G   + +T+ S +QR  FL+ V LP  + +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|2LAS|A</Hit_id>
+  <Hit_def>Molecular Determinants of Paralogue-Specific SUMO-SIM Recognition [Homo sapiens] &gt;pdb|6JXU|A Chain A, Small ubiquitin-related modifier [Homo sapiens] &gt;pdb|6JXV|A SUMO1 bound to phosphorylated SLS4-SIM peptide from ICP0 [Homo sapiens] &gt;pdb|6XOG|C Chain C, Small ubiquitin-related modifier 1 [Homo sapiens] &gt;pdb|6XOH|C Chain C, Small ubiquitin-related modifier 1 [Homo sapiens] &gt;pdb|6XOI|C Chain C, Small ubiquitin-related modifier 1 [Homo sapiens]</Hit_def>
+  <Hit_accession>2LAS_A</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.14246</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>KKHGVTVEVWYDGDKSNSMHYVVWGTIYFKNSTDTWCKTQGRVDYWGVYYMYEQQK</Hsp_qseq>
+      <Hsp_hseq>KKEGEYIKLKVIGQDSSEIHFKVKMTTHLKKLKESYCQRQG-VPMNSLRFLFEGQR</Hsp_hseq>
+      <Hsp_midline>KK G  +++   G  S+ +H+ V  T + K   +++C+ QG V    + +++E Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|1A5R|A</Hit_id>
+  <Hit_def>Chain A, SUMO-1 [Homo sapiens] &gt;pdb|2N1A|A Docked structure between SUMO1 and ZZ-domain from CBP [Homo sapiens]</Hit_def>
+  <Hit_accession>1A5R_A</Hit_accession>
+  <Hit_len>103</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.23974</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>KKHGVTVEVWYDGDKSNSMHYVVWGTIYFKNSTDTWCKTQGRVDYWGVYYMYEQQK</Hsp_qseq>
+      <Hsp_hseq>KKEGEYIKLKVIGQDSSEIHFKVKMTTHLKKLKESYCQRQG-VPMNSLRFLFEGQR</Hsp_hseq>
+      <Hsp_midline>KK G  +++   G  S+ +H+ V  T + K   +++C+ QG V    + +++E Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|5K59|E</Hit_id>
+  <Hit_def>Chain E, Fab heavy chain [Homo sapiens] &gt;pdb|5K59|H Chain H, Fab heavy chain [Homo sapiens]</Hit_def>
+  <Hit_accession>5K59_E</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>2.3658</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>17</Hsp_align-len>
+      <Hsp_qseq>ENAIYYAARERGMHNID</Hsp_qseq>
+      <Hsp_hseq>DTAVYYCARERGMHYMD</Hsp_hseq>
+      <Hsp_midline>+ A+YY ARERGMH +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|3Q5I|A</Hit_id>
+  <Hit_def>Crystal Structure of PBANKA_031420 [Plasmodium berghei]</Hit_def>
+  <Hit_accession>3Q5I_A</Hit_accession>
+  <Hit_len>504</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>5.05808</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>HNIDHQVVPPVNISKTKAYQAIELQMALESLAKTAYSAEEWTLRDTSNELWHTKPKQCFKKHGVTVEVW</Hsp_qseq>
+      <Hsp_hseq>HNIVHRDIKPENILLENKNSLLNIKIV--DFGLSSFFSKDYKLRDRLGTAYYIAPEVLKKKYNEKCDVW</Hsp_hseq>
+      <Hsp_midline>HNI H+ + P NI        + +++       +++ ++++ LRD     ++  P+   KK+    +VW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|5B7A|A</Hit_id>
+  <Hit_def>SOLUTION STRUCTURE OF LYS37 ACETYLATED HUMAN SUMO1 [Homo sapiens]</Hit_def>
+  <Hit_accession>5B7A_A</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>6.67935</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>KKHGVTVEVWYDGDKSNSMHYVVWGTIYFKNSTDTWCKTQGRVDYWGVYYMYEQQK</Hsp_qseq>
+      <Hsp_hseq>KKEGEYIKLKVIGQDSSEIHFXVKMTTHLKKLKESYCQRQG-VPMNSLRFLFEGQR</Hsp_hseq>
+      <Hsp_midline>KK G  +++   G  S+ +H+ V  T + K   +++C+ QG V    + +++E Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>pdb|5GHD|A</Hit_id>
+  <Hit_def>SOLUTION STRUCTURE OF LYS39 ACETYLATED HUMAN SUMO1 [Homo sapiens]</Hit_def>
+  <Hit_accession>5GHD_A</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>7.56776</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>KKHGVTVEVWYDGDKSNSMHYVVWGTIYFKNSTDTWCKTQGRVDYWGVYYMYEQQK</Hsp_qseq>
+      <Hsp_hseq>KKEGEYIKLKVIGQDSSEIHFKVXMTTHLKKLKESYCQRQG-VPMNSLRFLFEGQR</Hsp_hseq>
+      <Hsp_midline>KK G  +++   G  S+ +H+ V  T + K   +++C+ QG V    + +++E Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>pdb|3KYC|D</Hit_id>
+  <Hit_def>Chain D, Small ubiquitin-related modifier 1 [Homo sapiens]</Hit_def>
+  <Hit_accession>3KYC_D</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>7.7522</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>KKHGVTVEVWYDGDKSNSMHYVVWGTIYFKNSTDTWCKTQGRVDYWGVYYMYEQQK</Hsp_qseq>
+      <Hsp_hseq>KKEGEYIKLKVIGQDSSEIHFKVKMTTHLKKLKESYCQRQG-VPMNSLRFLFEGQR</Hsp_hseq>
+      <Hsp_midline>KK G  +++   G  S+ +H+ V  T + K   +++C+ QG V    + +++E Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|1WYW|B</Hit_id>
+  <Hit_def>Crystal Structure of SUMO1-conjugated thymine DNA glycosylase [Homo sapiens] &gt;pdb|1Y8R|C Chain C, Ubiquitin-like protein SMT3C [Homo sapiens] &gt;pdb|1Y8R|F Chain F, Ubiquitin-like protein SMT3C [Homo sapiens] &gt;pdb|2ASQ|A Chain A, Small ubiquitin-related modifier 1 [Homo sapiens] &gt;pdb|2MW5|A Backbone fold of Human Small Ubiquitin like Modifier protein-1 (SUMO-1) based on Prot3D-NMR approach. [Homo sapiens] &gt;pdb|2PE6|B Non-covalent complex between human SUMO-1 and human Ubc9 [Homo sapiens]</Hit_def>
+  <Hit_accession>1WYW_B</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>8.71056</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>KKHGVTVEVWYDGDKSNSMHYVVWGTIYFKNSTDTWCKTQGRVDYWGVYYMYEQQK</Hsp_qseq>
+      <Hsp_hseq>KKEGEYIKLKVIGQDSSEIHFKVKMTTHLKKLKESYCQRQG-VPMNSLRFLFEGQR</Hsp_hseq>
+      <Hsp_midline>KK G  +++   G  S+ +H+ V  T + K   +++C+ QG V    + +++E Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|2KQS|A</Hit_id>
+  <Hit_def>Phosphorylation of SUMO-interacting motif by CK2 enhances Daxx SUMO binding activity [Homo sapiens]</Hit_def>
+  <Hit_accession>2KQS_A</Hit_accession>
+  <Hit_len>99</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>8.7326</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>KKHGVTVEVWYDGDKSNSMHYVVWGTIYFKNSTDTWCKTQGRVDYWGVYYMYEQQK</Hsp_qseq>
+      <Hsp_hseq>KKEGEYIKLKVIGQDSSEIHFKVKMTTHLKKLKESYCQRQG-VPMNSLRFLFEGQR</Hsp_hseq>
+      <Hsp_midline>KK G  +++   G  S+ +H+ V  T + K   +++C+ QG V    + +++E Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|2N1V|A</Hit_id>
+  <Hit_def>Solution structure of human SUMO1 [Homo sapiens]</Hit_def>
+  <Hit_accession>2N1V_A</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>8.90979</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>KKHGVTVEVWYDGDKSNSMHYVVWGTIYFKNSTDTWCKTQGRVDYWGVYYMYEQQK</Hsp_qseq>
+      <Hsp_hseq>KKEGEYIKLKVIGQDSSEIHFKVKMTTHLKKLKESYCQRQG-VPMNSLRFLFEGQR</Hsp_hseq>
+      <Hsp_midline>KK G  +++   G  S+ +H+ V  T + K   +++C+ QG V    + +++E Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>pdb|3KYD|D</Hit_id>
+  <Hit_def>Chain D, Small ubiquitin-related modifier 1 [Homo sapiens]</Hit_def>
+  <Hit_accession>3KYD_D</Hit_accession>
+  <Hit_len>115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>9.21144</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>KKHGVTVEVWYDGDKSNSMHYVVWGTIYFKNSTDTWCKTQGRVDYWGVYYMYEQQK</Hsp_qseq>
+      <Hsp_hseq>KKEGEYIKLKVIGQDSSEIHFKVKMTTHLKKLKESYCQRQG-VPMNSLRFLFEGQR</Hsp_hseq>
+      <Hsp_midline>KK G  +++   G  S+ +H+ V  T + K   +++C+ QG V    + +++E Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>143313</Statistics_db-num>
+      <Statistics_db-len>38965635</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

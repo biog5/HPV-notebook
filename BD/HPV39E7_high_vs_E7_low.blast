@@ -1,0 +1,159 @@
+BLASTP 2.10.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: User specified sequence set (Input: BD/low_riskE7.fasta).
+           6 sequences; 602 total letters
+
+
+
+Query= AAA47051.1 transforming protein [human papillomavirus 39]
+
+Length=109
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+AAA47042.1 5' end of the coding region for ORF E7 not determined,...  70.5       3e-21
+AAO15456.1 putative transforming protein E7 [human papillomavirus...  67.0       3e-20
+AAA46928.1 transforming protein [human papillomavirus 11]             63.5       7e-19
+NP_040297.1 E7 protein [Human papillomavirus type 6b]                 63.2       9e-19
+AAA79458.1 transforming protein E7 [human papillomavirus 44]          59.3       4e-17
+CAF05784.1 E7 protein [human papillomavirus 43]                       55.1       2e-15
+
+
+> AAA47042.1 5' end of the coding region for ORF E7 not determined, 
+partial [human papillomavirus 42]
+Length=115
+
+ Score = 70.5 bits (171),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 42/105 (40%), Positives = 59/105 (56%), Gaps = 15/105 (14%)
+
+Query  1    MRGPKPTLQEIVLDLCPYNEIQPVDLVCHEQLGESEDEIDEPDHAVNHQHQLLARRDEPQ  60
+            MRG  PTL++IVL   P  E  P+DL C+EQL  S    DE D A          + + Q
+Sbjct  23   MRGETPTLKDIVLFDIPTCE-TPIDLYCYEQLDSS----DEDDQA----------KQDIQ  67
+
+Query  61   RHTIQCSCCKCNNTLQLVVEASRDTLRQLQQLFMDSLGFVCPWCA  105
+            R+ I C C +C  +++LVV+ +   +R LQQ+ + +L  VCP CA
+Sbjct  68   RYRILCVCTQCYKSVKLVVQCTEADIRNLQQMLLGTLDIVCPLCA  112
+
+
+ Score = 14.6 bits (26),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 9/28 (32%), Positives = 12/28 (43%), Gaps = 0/28 (0%)
+
+Query  79   VEASRDTLRQLQQLFMDSLGFVCPWCAT  106
+            V A + T+R       D + F  P C T
+Sbjct  16   VYALQRTMRGETPTLKDIVLFDIPTCET  43
+
+
+> AAO15456.1 putative transforming protein E7 [human papillomavirus 
+74]
+Length=95
+
+ Score = 67.0 bits (162),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 43/106 (41%), Positives = 56/106 (53%), Gaps = 15/106 (14%)
+
+Query  1    MRGPKPTLQEIVLDLCPYNEIQPVDLVCHEQLGESEDEIDE-PDHAVNHQHQLLARRDEP  59
+            M G  PTL+EIVL L P     PV L+C+EQL  SE+E+DE    A  H           
+Sbjct  1    MHGKYPTLKEIVLQLQP----DPVGLLCNEQLDSSEEEVDELATQATQHT----------  46
+
+Query  60   QRHTIQCSCCKCNNTLQLVVEASRDTLRQLQQLFMDSLGFVCPWCA  105
+            Q + I   CC CN +L+LVV+ +   +  L  L + +L  VCP CA
+Sbjct  47   QPYQIVTCCCVCNRSLRLVVQCTGPDINNLHTLLLGTLSLVCPLCA  92
+
+
+> AAA46928.1 transforming protein [human papillomavirus 11]
+Length=98
+
+ Score = 63.5 bits (153),  Expect = 7e-19, Method: Compositional matrix adjust.
+ Identities = 45/106 (42%), Positives = 61/106 (58%), Gaps = 12/106 (11%)
+
+Query  1    MRGPKPTLQEIVLDLCPYNEIQPVDLVCHEQLGES-EDEIDEPDHAVNHQHQLLARRDEP  59
+            M G   TL++IVLDL P +   PV L C+EQL +S EDE+D+ D       Q L      
+Sbjct  1    MHGRLVTLKDIVLDLQPPD---PVGLHCYEQLEDSSEDEVDKVD---KQDAQPLT-----  49
+
+Query  60   QRHTIQCSCCKCNNTLQLVVEASRDTLRQLQQLFMDSLGFVCPWCA  105
+            Q + I   CC C++ ++LVVE +   +RQLQ L + +L  VCP CA
+Sbjct  50   QHYQILTCCCGCDSNVRLVVECTDGDIRQLQDLLLGTLNIVCPICA  95
+
+
+> NP_040297.1 E7 protein [Human papillomavirus type 6b]
+Length=98
+
+ Score = 63.2 bits (152),  Expect = 9e-19, Method: Compositional matrix adjust.
+ Identities = 43/108 (40%), Positives = 62/108 (57%), Gaps = 16/108 (15%)
+
+Query  1    MRGPKPTLQEIVLDLCPYNEIQPVDLVCHEQLGES-EDEIDEPDHAVNHQHQLLARRDEP  59
+            M G   TL++IVLDL P +   PV L C+EQL +S EDE+DE D           +  +P
+Sbjct  1    MHGRHVTLKDIVLDLQPPD---PVGLHCYEQLVDSSEDEVDEVD----------GQDSQP  47
+
+Query  60   --QRHTIQCSCCKCNNTLQLVVEASRDTLRQLQQLFMDSLGFVCPWCA  105
+              Q   I   CC C++ ++LVV+ +   +R++QQL + +L  VCP CA
+Sbjct  48   LKQHFQIVTCCCGCDSNVRLVVQCTETDIREVQQLLLGTLNIVCPICA  95
+
+
+> AAA79458.1 transforming protein E7 [human papillomavirus 44]
+Length=97
+
+ Score = 59.3 bits (142),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 40/105 (38%), Positives = 55/105 (52%), Gaps = 11/105 (10%)
+
+Query  1    MRGPKPTLQEIVLDLCPYNEIQPVDLVCHEQLGESEDEIDEPDHAVNHQHQLLARRDEPQ  60
+            M G   TL+EIVL L P +   PV L C+EQL  SEDE+DE            A +D  Q
+Sbjct  1    MHGNYTTLKEIVLQLEPPD---PVGLHCNEQLDSSEDEVDELATQ--------ATQDVTQ  49
+
+Query  61   RHTIQCSCCKCNNTLQLVVEASRDTLRQLQQLFMDSLGFVCPWCA  105
+             + I  +C  C+  ++LVV+ +   +  L  L + SL  +CP CA
+Sbjct  50   PYQIVTTCGTCSRKVRLVVQCTGTDIHHLHTLLLGSLDILCPVCA  94
+
+
+> CAF05784.1 E7 protein [human papillomavirus 43]
+Length=99
+
+ Score = 55.1 bits (131),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 39/112 (35%), Positives = 59/112 (53%), Gaps = 20/112 (18%)
+
+Query  1    MRGPKPTLQEIVLDLCPYNEIQPVDLVCHEQL--GESEDEIDEP---DHAVNHQHQLLAR  55
+            M G KPT+++ VL + P    +P  L C+EQL   +SEDE ++P   D  VN Q      
+Sbjct  1    MHGKKPTIRDYVLTMQP----EPRSLTCNEQLDSSDSEDEREQPTQQDQQVNLQVY----  52
+
+Query  56   RDEPQRHTIQCSCCKCNNTLQLVVEASRDTLRQLQQLFMDSLGFVCPWCATA  107
+                 R   +C+ C C   ++LVV+ S   +++L+ L + +L  VCP C T 
+Sbjct  53   -----RVVTECTSCLC--VIRLVVQCSDSDIKKLEDLLLGTLKIVCPLCTTT  97
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.135    0.436    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 40890
+
+
+  Database: User specified sequence set (Input: BD/low_riskE7.fasta).
+    Posted date:  Unknown
+  Number of letters in database: 602
+  Number of sequences in database:  6
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

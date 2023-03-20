@@ -1,0 +1,20 @@
+1: Intalar Blast Windows:
+release: https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.10.0/
+
+Guia y extras: 
+https://www.ncbi.nlm.nih.gov/books/NBK52637/
+Configurar la variable de entorno: BLASTDB_LMDB_MAP_SIZE=1000000
+Guia2: https://www.java.com/es/download/help/path_es.html
+
+
+2: Anaconda: https://www.anaconda.com/products/individual
+
+3: Pycharm: https://www.jetbrains.com/pycharm/download/#section=windows
+
+4: Biopython: conda install biopython
+
+5:Paquetes: 
+conda install scipy numpy pandas matplotlib nglview seaborn
+or
+pip install scipy numpy pandas matplotlib nglview seaborn
+

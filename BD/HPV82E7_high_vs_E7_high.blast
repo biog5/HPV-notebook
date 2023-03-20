@@ -1,0 +1,294 @@
+BLASTP 2.10.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: User specified sequence set (Input: BD/high_riskE7.fasta).
+           15 sequences; 1,538 total letters
+
+
+
+Query= BAA90736.1 E7 [human papillomavirus 82]
+
+Length=100
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+BAA90736.1 E7 [human papillomavirus 82]                               206        4e-75
+CAA52597.1 envelope protein [human papillomavirus 56]                 105        8e-35
+CAA63883.1 E7 [human papillomavirus 73]                               90.1       4e-29
+NP_040311.1 E7 protein [Alphapapillomavirus 7]                        89.4       1e-28
+AAA46951.1 transforming protein [human papillomavirus 31]             86.3       2e-27
+CAA52574.1 early protein [human papillomavirus 45]                    85.5       4e-27
+AAZ39492.1 E7 protein [Human papillomavirus type 68a]                 81.3       2e-25
+AAA47051.1 transforming protein [human papillomavirus 39]             80.9       3e-25
+CAA52586.1 early protein [human papillomavirus 52]                    80.5       3e-25
+AAA46959.1 transforming protein [human papillomavirus 33]             79.7       6e-25
+NP_041326.1 transforming protein E7 [Human papillomavirus type 16]    76.6       1e-23
+BAA31846.1 unnamed protein product [human papillomavirus 58]          74.3       9e-23
+CAA54850.1 ORF putative E7 [human papillomavirus 59]                  74.3       1e-22
+CBY85068.1 E7 protein [Human papillomavirus type 68b]                 73.6       2e-22
+CAA52562.1 early protein [Human papillomavirus type 35H]              72.4       5e-22
+
+
+> BAA90736.1 E7 [human papillomavirus 82]
+Length=100
+
+ Score = 206 bits (525),  Expect = 4e-75, Method: Compositional matrix adjust.
+ Identities = 100/100 (100%), Positives = 100/100 (100%), Gaps = 0/100 (0%)
+
+Query  1   MRGNVPQLKDIVLELTPQPEIDLQCYEQFDSSDEEDEVDNMRDQPARQAGQDTCYRIKVH  60
+           MRGNVPQLKDIVLELTPQPEIDLQCYEQFDSSDEEDEVDNMRDQPARQAGQDTCYRIKVH
+Sbjct  1   MRGNVPQLKDIVLELTPQPEIDLQCYEQFDSSDEEDEVDNMRDQPARQAGQDTCYRIKVH  60
+
+Query  61  CCRCSSVVQLAVESSGDSLRIFQQMLLGDLSLVCPWCATN  100
+           CCRCSSVVQLAVESSGDSLRIFQQMLLGDLSLVCPWCATN
+Sbjct  61  CCRCSSVVQLAVESSGDSLRIFQQMLLGDLSLVCPWCATN  100
+
+
+> CAA52597.1 envelope protein [human papillomavirus 56]
+Length=105
+
+ Score = 105 bits (261),  Expect = 8e-35, Method: Compositional matrix adjust.
+ Identities = 59/104 (57%), Positives = 79/104 (76%), Gaps = 4/104 (4%)
+
+Query  1    MRGNVPQLKDIVLELTPQPEIDLQCYEQFDSSDEEDE--VDNMRDQP--ARQAGQDTCYR  56
+            M G VP L+D+VLELTPQ EIDLQC EQ DSS++EDE  VD+++++P  ARQA Q TCY 
+Sbjct  1    MHGKVPTLQDVVLELTPQTEIDLQCNEQLDSSEDEDEDEVDHLQERPQQARQAKQHTCYL  60
+
+Query  57   IKVHCCRCSSVVQLAVESSGDSLRIFQQMLLGDLSLVCPWCATN  100
+            I V CC C  VVQL ++S+ + LR+ QQ+L+G L++ CP CA++
+Sbjct  61   IHVPCCECKFVVQLDIQSTKEDLRVVQQLLMGALTVTCPLCASS  104
+
+
+> CAA63883.1 E7 [human papillomavirus 73]
+Length=97
+
+ Score = 90.1 bits (222),  Expect = 4e-29, Method: Compositional matrix adjust.
+ Identities = 46/100 (46%), Positives = 64/100 (64%), Gaps = 4/100 (4%)
+
+Query  1   MRGNVPQLKDIVLELTPQPEIDLQCYEQFDSSDEEDEVDNMRDQPARQAGQDTCYRIKVH  60
+           M G    L+DI L+L P  EIDL CYE  D+S++EDE D+  D   RQA ++ CYRI   
+Sbjct  1   MHGKKTTLQDITLDLKPTTEIDLTCYESLDNSEDEDETDSHLD---RQAERE-CYRIVTD  56
+
+Query  61  CCRCSSVVQLAVESSGDSLRIFQQMLLGDLSLVCPWCATN  100
+           C +C   V LA+ES+   LR+ +++L+G L +VCP C+ N
+Sbjct  57  CTKCQCTVCLAIESNKADLRVIEELLMGTLGIVCPNCSRN  96
+
+
+> NP_040311.1 E7 protein [Alphapapillomavirus 7]
+Length=105
+
+ Score = 89.4 bits (220),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 51/104 (49%), Positives = 65/104 (63%), Gaps = 6/104 (6%)
+
+Query  1    MRGNVPQLKDIVLELTPQPEI--DLQCYEQF-DSSDEEDEVDNMRDQ--PARQAGQDTCY  55
+            M G    L+DIVL L PQ EI  DL C+EQ  DS +E DE+D +  Q  PAR+A     +
+Sbjct  1    MHGPKATLQDIVLHLEPQNEIPVDLLCHEQLSDSEEENDEIDGVNHQHLPARRAEPQR-H  59
+
+Query  56   RIKVHCCRCSSVVQLAVESSGDSLRIFQQMLLGDLSLVCPWCAT  99
+             +   CC+C + ++L VESS D LR FQQ+ L  LS VCPWCA+
+Sbjct  60   TMLCMCCKCEARIELVVESSADDLRAFQQLFLNTLSFVCPWCAS  103
+
+
+> AAA46951.1 transforming protein [human papillomavirus 31]
+Length=98
+
+ Score = 86.3 bits (212),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 49/101 (49%), Positives = 65/101 (64%), Gaps = 7/101 (7%)
+
+Query  1   MRGNVPQLKDIVLELTPQPEIDLQCYEQF-DSSDEEDEVDNMRDQPARQAGQDTC-YRIK  58
+           MRG  P L+D VL+L P+   DL CYEQ  DSSDEED +D+    PA QA  DT  Y I 
+Sbjct  1   MRGETPTLQDYVLDLQPE-ATDLHCYEQLPDSSDEEDVIDS----PAGQAEPDTSNYNIV  55
+
+Query  59  VHCCRCSSVVQLAVESSGDSLRIFQQMLLGDLSLVCPWCAT  99
+             CC+C S ++L V+S+   +RI Q++L+G   +VCP C+T
+Sbjct  56  TFCCQCKSTLRLCVQSTQVDIRILQELLMGSFGIVCPNCST  96
+
+
+> CAA52574.1 early protein [human papillomavirus 45]
+Length=106
+
+ Score = 85.5 bits (210),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 50/106 (47%), Positives = 63/106 (59%), Gaps = 7/106 (7%)
+
+Query  1    MRGNVPQLKDIVLELTPQPE---IDLQCYEQFDSSDEE-DEVDNMRDQ--PARQAGQDTC  54
+            M G    L++IVL L PQ E   +DL CYEQ   S+EE DE D +     PAR+A     
+Sbjct  1    MHGPRETLQEIVLHLEPQNELDPVDLLCYEQLSESEEENDEADGVSHAQLPARRAEPQR-  59
+
+Query  55   YRIKVHCCRCSSVVQLAVESSGDSLRIFQQMLLGDLSLVCPWCATN  100
+            ++I   CC+C   ++L VESS + LR  QQ+ L  LS VCPWCATN
+Sbjct  60   HKILCVCCKCDGRIELTVESSAEDLRTLQQLFLSTLSFVCPWCATN  105
+
+
+> AAZ39492.1 E7 protein [Human papillomavirus type 68a]
+Length=110
+
+ Score = 81.3 bits (199),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 49/108 (45%), Positives = 66/108 (61%), Gaps = 10/108 (9%)
+
+Query  1    MRGNVPQLKDIVLELTPQPEI---DLQCYEQF-DSSDEEDEVDNMRDQP-----ARQAGQ  51
+            M G  P +++IVLEL P  EI   DL C+EQ  DS DE DE D+  +       AR+  Q
+Sbjct  1    MHGPKPTVQEIVLELCPYNEIQPVDLVCHEQLGDSDDEIDEPDHAVNHHQHLLLARRDEQ  60
+
+Query  52   DTCYRIKVHCCRCSSVVQLAVESSGDSLRIFQQMLLGDLSLVCPWCAT  99
+               +RI+  CC+C+  +QL VE+S D+LR  QQ+ +  L+ VCPWCAT
+Sbjct  61   QR-HRIQCLCCKCNKALQLVVEASRDNLRTLQQLFMDSLNFVCPWCAT  107
+
+
+> AAA47051.1 transforming protein [human papillomavirus 39]
+Length=109
+
+ Score = 80.9 bits (198),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 49/113 (43%), Positives = 66/113 (58%), Gaps = 21/113 (19%)
+
+Query  1    MRGNVPQLKDIVLELTPQPEI---DLQCYEQF-DSSDEEDEVDNM----------RDQPA  46
+            MRG  P L++IVL+L P  EI   DL C+EQ  +S DE DE D+           RD+P 
+Sbjct  1    MRGPKPTLQEIVLDLCPYNEIQPVDLVCHEQLGESEDEIDEPDHAVNHQHQLLARRDEPQ  60
+
+Query  47   RQAGQDTCYRIKVHCCRCSSVVQLAVESSGDSLRIFQQMLLGDLSLVCPWCAT  99
+            R       + I+  CC+C++ +QL VE+S D+LR  QQ+ +  L  VCPWCAT
+Sbjct  61   R-------HTIQCSCCKCNNTLQLVVEASRDTLRQLQQLFMDSLGFVCPWCAT  106
+
+
+> CAA52586.1 early protein [human papillomavirus 52]
+Length=99
+
+ Score = 80.5 bits (197),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 48/100 (48%), Positives = 61/100 (61%), Gaps = 5/100 (5%)
+
+Query  1   MRGNVPQLKDIVLELTPQPEIDLQCYEQF-DSSDEEDEVDNMRDQPARQAGQDTC-YRIK  58
+           MRG+   +KD +L+L P+   DL CYEQ  DSSDEED   +  D+P  QA Q T  Y I 
+Sbjct  1   MRGDKATIKDYILDLQPET-TDLHCYEQLGDSSDEEDT--DGVDRPDGQAEQATSNYYIV  57
+
+Query  59  VHCCRCSSVVQLAVESSGDSLRIFQQMLLGDLSLVCPWCA  98
+            +C  C S ++L + S+   LR  QQMLLG L +VCP CA
+Sbjct  58  TYCHSCDSTLRLCIHSTATDLRTLQQMLLGTLQVVCPGCA  97
+
+
+> AAA46959.1 transforming protein [human papillomavirus 33]
+Length=97
+
+ Score = 79.7 bits (195),  Expect = 6e-25, Method: Compositional matrix adjust.
+ Identities = 44/98 (45%), Positives = 60/98 (61%), Gaps = 3/98 (3%)
+
+Query  1   MRGNVPQLKDIVLELTPQPEIDLQCYEQFDSSDEEDEVDNMRDQPARQAGQDTCYRIKVH  60
+           MRG+ P LK+ VL+L P+P  DL CYEQ   S +EDE  +  D  A+ A  D  Y I   
+Sbjct  1   MRGHKPTLKEYVLDLYPEP-TDLYCYEQLSDSSDEDEGLDRPDGQAQPATAD--YYIVTC  57
+
+Query  61  CCRCSSVVQLAVESSGDSLRIFQQMLLGDLSLVCPWCA  98
+           C  C++ V+L V S+   LR  QQ+L+G +++VCP CA
+Sbjct  58  CHTCNTTVRLCVNSTASDLRTIQQLLMGTVNIVCPTCA  95
+
+
+> NP_041326.1 transforming protein E7 [Human papillomavirus type 
+16]
+Length=98
+
+ Score = 76.6 bits (187),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 43/100 (43%), Positives = 61/100 (61%), Gaps = 7/100 (7%)
+
+Query  1   MRGNVPQLKDIVLELTPQPEIDLQCYEQF-DSSDEEDEVDNMRDQPARQAGQDTC-YRIK  58
+           M G+ P L + +L+L P+   DL CYEQ  DSS+EEDE+D     PA QA  D   Y I 
+Sbjct  1   MHGDTPTLHEYMLDLQPE-TTDLYCYEQLNDSSEEEDEIDG----PAGQAEPDRAHYNIV  55
+
+Query  59  VHCCRCSSVVQLAVESSGDSLRIFQQMLLGDLSLVCPWCA  98
+             CC+C S ++L V+S+   +R  + +L+G L +VCP C+
+Sbjct  56  TFCCKCDSTLRLCVQSTHVDIRTLEDLLMGTLGIVCPICS  95
+
+
+> BAA31846.1 unnamed protein product [human papillomavirus 58]
+Length=98
+
+ Score = 74.3 bits (181),  Expect = 9e-23, Method: Compositional matrix adjust.
+ Identities = 42/99 (42%), Positives = 58/99 (59%), Gaps = 4/99 (4%)
+
+Query  1   MRGNVPQLKDIVLELTPQPEIDLQCYEQFDSSDEEDEVDNMRDQPARQAGQDTCYRIKVH  60
+           MRGN P L++ +L+L P+P  DL CYEQ   S +EDE+    D P  QA   T     V 
+Sbjct  1   MRGNNPTLREYILDLHPEP-TDLFCYEQLCDSSDEDEIG--LDGPDGQAQPATANYYIVT  57
+
+Query  61  CC-RCSSVVQLAVESSGDSLRIFQQMLLGDLSLVCPWCA  98
+           CC  C + V+L + S+   +R  QQ+L+G  ++VCP CA
+Sbjct  58  CCYTCGTTVRLCINSTTTDVRTLQQLLMGTCTIVCPSCA  96
+
+
+> CAA54850.1 ORF putative E7 [human papillomavirus 59]
+Length=107
+
+ Score = 74.3 bits (181),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 48/107 (45%), Positives = 62/107 (58%), Gaps = 8/107 (7%)
+
+Query  1    MRGNVPQLKDIVLELTPQ--PEIDLQCYEQFDSSDEEDEVD--NMRDQP---ARQAGQDT  53
+            M G    L DIVL+L PQ   E+DL CYEQ   SD E+E D  +  + P   AR+A    
+Sbjct  1    MHGPKATLCDIVLDLEPQNYEEVDLVCYEQLPDSDSENEKDEPDGVNHPLLLARRAEPQR  60
+
+Query  54   CYRIKVHCCRCSSVVQLAVESSGDSLRIFQQMLLGDLSLVCPWCATN  100
+             + I   CC+C++ +QL VE+S D LR  QQ+ +  LS VCP CA N
+Sbjct  61   -HNIVCVCCKCNNQLQLVVETSQDGLRALQQLFMDTLSFVCPLCAAN  106
+
+
+> CBY85068.1 E7 protein [Human papillomavirus type 68b]
+Length=110
+
+ Score = 73.6 bits (179),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 46/107 (43%), Positives = 66/107 (62%), Gaps = 8/107 (7%)
+
+Query  1    MRGNVPQLKDIVLELTPQPEI---DLQCYEQF-DSSDEEDEVDNMRDQPARQ--AGQDTC  54
+            M G  P +++IVLEL P  EI   DL C+EQ  DS DE DE D+  +    Q  A +D  
+Sbjct  1    MHGPKPTVQEIVLELCPCNEIEPVDLVCHEQLGDSDDEIDEPDHAVNHHQHQLLARRDEQ  60
+
+Query  55   YR--IKVHCCRCSSVVQLAVESSGDSLRIFQQMLLGDLSLVCPWCAT  99
+             R  I+  CC+C++++QL VE+S ++LR  + + +  L+ VCPWCAT
+Sbjct  61   QRHTIQCTCCKCNNLLQLVVEASRENLRKLELLFMDSLNFVCPWCAT  107
+
+
+> CAA52562.1 early protein [Human papillomavirus type 35H]
+Length=99
+
+ Score = 72.4 bits (176),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 40/99 (40%), Positives = 58/99 (59%), Gaps = 4/99 (4%)
+
+Query  1   MRGNVPQLKDIVLELTPQPEIDLQCYEQFDSSDEEDEVDNMRDQPARQAGQDTC-YRIKV  59
+           M G +  L+D VL+L P+   DL CYEQ   S EE+E  +  D PA QA  DT  Y I  
+Sbjct  1   MHGEITTLQDYVLDLEPEA-TDLYCYEQLCDSSEEEE--DTIDGPAGQAKPDTSNYNIVT  57
+
+Query  60  HCCRCSSVVQLAVESSGDSLRIFQQMLLGDLSLVCPWCA  98
+            CC+C + ++L V+S+   +R  + +L+G   +VCP C+
+Sbjct  58  SCCKCEATLRLCVQSTHIDIRKLEDLLMGTFGIVCPGCS  96
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.135    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 82709
+
+
+  Database: User specified sequence set (Input: BD/high_riskE7.fasta).
+    Posted date:  Unknown
+  Number of letters in database: 1,538
+  Number of sequences in database:  15
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

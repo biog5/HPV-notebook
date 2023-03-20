@@ -1,0 +1,2081 @@
+﻿# Clasificación 
+Alto riesgo: 16, 18, 31, 33, 35, 39, 45, 51, 52, 56,  58, 59, 68, 73, 82
+Probable riesgo: 26, 53, 66
+Bajo riesgo: 6,11,40,42,43,44,54,61,70,72,81,CP6108
+Riesgo no determinado: 34,57,83
+        	
+Faltan:
+HPV1 (mouse: https://www.ncbi.nlm.nih.gov/bioproject/562919) otro organismo 
+HPV55 
+HPV2C (Alpha 4) tiene parcial mejopr no usar: https://www.ncbi.nlm.nih.gov/nuccore/AH004565.1 
+
+
+HPV2 (Alpha 4)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/MN605988.1
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/1878296591
+QLM04844.1
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/1878296588
+QLM04841.1
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/1878296590
+QLM04843.1
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/1878296593
+QLM04846.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/1878296592
+QLM04845.1
+
+
+HPV2A (No tiene genes ver si podemos hallar) (Alpha 4)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/X55964.1
+"HPV2A":"X55964.1",
+          
+
+HPV3 (Alpha 2)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/397005?report=genbank
+"HPV3":"X74462.1",
+ 
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/397008
+CAA52471.1
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/397009
+CAA52472.1
+
+no tien E7
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/397012
+CAA52474.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/397011
+CAA52473.1
+ 
+
+HPV5 (Beta 1)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/9627145?report=genbank
+"HPV5":"NC_001531.1", 
+
+gene="E1", locus_tag="HpV5gp3"
+https://www.ncbi.nlm.nih.gov/protein/9627148
+NP_041367.1
+
+gene="E2", locus_tag="HpV5gp4"
+https://www.ncbi.nlm.nih.gov/protein/9627149
+NP_041368.1
+
+gene="E7", locus_tag="HpV5gp2"
+https://www.ncbi.nlm.nih.gov/protein/9627147
+NP_041366.1
+
+gene="L1", locus_tag="HpV5gp8"
+https://www.ncbi.nlm.nih.gov/protein/9627153
+NP_041372.1
+
+gene="L2", locus_tag="HpV5gp7"
+https://www.ncbi.nlm.nih.gov/protein/9627152
+NP_041371.1
+
+
+HPV4 (Gamma 1)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/NC_001457.1
+"HPV5":"NC_001457.1",
+
+locus_tag="HpV4gp3", note="putative E1 ORF"
+https://www.ncbi.nlm.nih.gov/protein/9626600
+NP_040891.1
+
+locus_tag="HpV4gp4", note="putative E2 ORF"
+https://www.ncbi.nlm.nih.gov/protein/9626601
+NP_040892.1
+
+locus_tag="HpV4gp2", note="putative E7 ORF"
+https://www.ncbi.nlm.nih.gov/protein/9626599
+NP_040890.1
+
+locus_tag="HpV4gp7", note="putative L1 ORF"
+https://www.ncbi.nlm.nih.gov/protein/9626604
+NP_040895.1
+
+locus_tag="HpV4gp6", note="putative L2 ORF"
+https://www.ncbi.nlm.nih.gov/protein/9626603
+NP_040894.1
+
+
+HPV7 (Alpha 8)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/NC_001595.1
+"HPV7":"NC_001595.1", 
+
+gene="E1", locus_tag="HpV7gp3"
+https://www.ncbi.nlm.nih.gov/protein/9627392
+NP_041856.1
+
+gene="E2", locus_tag="HpV7gp4"
+https://www.ncbi.nlm.nih.gov/protein/9627393
+NP_041857.1
+
+gene="E7", locus_tag="HpV7gp2"
+https://www.ncbi.nlm.nih.gov/protein/9627391
+NP_041855.1
+
+gene="L1", locus_tag="HpV7gp6"
+https://www.ncbi.nlm.nih.gov/protein/9627395
+NP_041859.1
+
+gene="L2", locus_tag="HpV7gp5"
+https://www.ncbi.nlm.nih.gov/protein/9627394
+NP_041858.1
+
+
+HPV8 (No tiene genes ver si podemos hallar) (Beta 1) 
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/333074?report=genbank
+"HPV7":"M12737.1", 
+
+
+HPV9 (Beta 2)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/9627396?report=genbank
+"HPV9":"NC_001596.1", 
+
+gene="E1", locus_tag="HpV9gp3"
+https://www.ncbi.nlm.nih.gov/protein/9627400
+NP_041863.1
+
+gene="E2", locus_tag="HpV9gp4"
+https://www.ncbi.nlm.nih.gov/protein/9627401
+NP_041864.1
+
+gene="E7", locus_tag="HpV9gp2"
+https://www.ncbi.nlm.nih.gov/protein/9627399
+NP_041862.1
+
+gene="L1", locus_tag="HpV9gp6"
+https://www.ncbi.nlm.nih.gov/protein/9627403
+NP_041866.1
+
+gene="L2", locus_tag="HpV9gp5"
+https://www.ncbi.nlm.nih.gov/protein/9627402
+NP_041865.1
+
+
+HPV10 (Alpha 2)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/NC_001576.1
+"HPV10":"NC_001576.1",
+
+gene="E1", locus_tag="HpV10gp3"
+https://www.ncbi.nlm.nih.gov/protein/9627260
+NP_041743.1
+
+gene="E2", locus_tag="HpV10gp4"
+https://www.ncbi.nlm.nih.gov/protein/9627261
+NP_041744.1
+
+gene="E7", locus_tag="HpV10gp2"
+https://www.ncbi.nlm.nih.gov/protein/9627259
+NP_041742.1
+
+gene="L1", locus_tag="HpV10gp6"
+https://www.ncbi.nlm.nih.gov/protein/9627263
+NP_041746.1
+         
+gene="L2", locus_tag="HpV10gp5"
+https://www.ncbi.nlm.nih.gov/protein/9627262
+NP_041745.1
+
+
+HPV12 (Beta 1)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/396910?report=genbank
+"HPV12":"X74466.1",
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/396913
+CAA52498.1
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/396914
+CAA52499.1
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/396912
+CAA52497.1
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/396917
+CAA52501.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/396916
+CAA52500.1
+
+
+HPV13 (Alpha 10)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/60295?report=genbank
+"HPV13":"X62843.1", 
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/60298
+CAA44649.1
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/60299
+CAA44650.1
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/60297
+CAA44648.1
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/60303
+CAA44654.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/60302
+CAA44653.1
+
+
+HPV14B (Beta 1)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/396918?report=genbank
+"HPV14B":"X74467.1", 
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/396919
+CAA52502.1
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/396920
+CAA52503.1
+
+E7 no tiene
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/396923
+CAA52505.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/396922
+CAA52504.1
+
+
+HPV15 (Beta 2)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/396924?report=genbank
+"HPV15":"X74468.1", 
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/396927
+CAA52508.1
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/396928
+CAA52509.1
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/396926
+CAA52507.1
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/396931
+CAA52511.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/396930
+CAA52510.1
+
+
+HPV17 (Beta 2)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/396932?report=genbank
+"HPV17":"X74469.1", 
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/396935
+CAA52514.1
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/396936
+CAA52515.1
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/396934
+CAA52513.1
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/396939
+CAA52517.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/396938
+CAA52516.1
+
+
+HPV19 (Beta 1)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/396940?report=genbank
+"HPV19":"X74470.1", 
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/396943
+CAA52520.1
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/396944
+CAA52521.1
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/396942
+CAA52519.1
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/396947
+CAA52523.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/396946
+CAA52522.1
+
+
+HPV20 (Beta 1)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/1020162?report=genbank
+"HPV20":"U31778.1", 
+
+gene="E1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020165
+AAA79389.1
+
+gene="E2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020166
+AAA79390.1
+
+gene="E7", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020164
+AAA79388.1
+
+gene="L1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020169
+AAA79393.1
+
+gene="L2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020168
+AAA79392.1
+
+
+HPV21 (Beta 1)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/1020170?report=genbank
+"HPV21":"U31779.1", 
+
+gene="E1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020173
+AAA79396.1
+
+gene="E2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020174
+AAA79397.1
+
+gene="E7", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020172
+AAA79395.1
+
+gene="L1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020177
+AAA79400.1
+
+gene="L2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020176
+AAA79399.1
+
+
+HPV22 (Beta 2)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/1020178?report=genbank
+"HPV22":"U31780.1",
+
+gene="E1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020181
+AAA79403.1
+
+gene="E2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020182
+AAA79404.1
+
+gene="E7", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020180
+AAA79402.1
+
+gene="L1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020185
+AAA79407.1
+
+gene="L2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020184
+AAA79406.1
+
+
+HPV23 (Beta 2)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/1020186?report=genbank
+"HPV23":"U31781.1",
+
+gene="E1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020189
+AAA79410.1
+
+gene="E2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020190
+AAA79411.1
+
+gene="E7", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020188
+AAA79409.1
+
+gene="L1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020193
+AAA79414.1
+
+gene="L2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020192
+AAA79413.1
+
+
+HPV24 (Beta 1)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/1020194?report=genbank
+"HPV24":"U31782.1",
+
+gene="E1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020197
+AAA79417.1
+
+gene="E2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020198
+AAA79418.1
+
+gene="E7", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020196
+AAA79416.1
+
+gene="L1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020201
+AAA79421.1
+
+gene="L2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020200
+AAA79420.1
+
+
+HPV25 (Beta 1)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/396948?report=genbank
+"HPV25":"X74471.1",
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/396951
+CAA52526.1
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/396952
+CAA52527.1
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/396950
+CAA52525.1
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/396955
+CAA52529.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/396954
+CAA52528.1
+
+
+HPV27B (Alpha 4)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/71061109
+"HPV27B":"AB211993.1",
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/71061112
+BAE16265.1
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/71061113
+BAE16266.1
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/71061111
+BAE16264.1
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/71061116
+BAE16269.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/71061115
+BAE16268.1
+
+
+HPV28(Alpha 2)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/1020202?report=genbank
+"HPV28":"U31783.1",
+
+gene="E1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020205
+AAA79424.1
+
+gene="E2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020206
+AAA79425.1
+
+gene="E7", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020204
+AAA79423.1
+
+gene="L1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020209
+AAA79428.1
+
+gene="L2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020208
+AAA79427.1
+
+
+HPV29(Alpha 2)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/1020210?report=genbank
+"HPV29":"U31784.1",
+
+gene="E1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020213
+AAA79431.1
+
+gene="E2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020214
+AAA79432.1
+
+gene="E7", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020212
+AAA79430.1
+
+gene="L1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020217
+AAA79435.1
+
+gene="L2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020216
+AAA79434.1
+
+
+HPV30 (Alpha 6)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/1464310268?report=genbank
+"HPV30":"NC_038889.1",
+
+gene="E1", locus_tag="D1T14_gp3"
+https://www.ncbi.nlm.nih.gov/protein/1464310271
+YP_009508156.1
+
+gene="E2", locus_tag="D1T14_gp4"
+https://www.ncbi.nlm.nih.gov/protein/1464310272
+YP_009508157.1
+
+gene="E7", locus_tag="D1T14_gp2"
+https://www.ncbi.nlm.nih.gov/protein/1464310270
+YP_009508155.1
+
+gene="L1", locus_tag="D1T14_gp6"
+https://www.ncbi.nlm.nih.gov/protein/1464310274
+YP_009508159.1
+
+gene="L2", locus_tag="D1T14_gp5"
+https://www.ncbi.nlm.nih.gov/protein/1464310273
+YP_009508158.1
+
+
+HPV32 (Alfha 1)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/NC_001586.1
+"HPV32":"NC_001586.1",
+
+gene="E1", locus_tag="HpV32gp3"
+https://www.ncbi.nlm.nih.gov/protein/9627330
+NP_041803.1
+
+gene="E2", locus_tag="HpV32gp4"
+https://www.ncbi.nlm.nih.gov/protein/9627331
+NP_041804.1
+
+gene="E7", locus_tag="HpV32gp2"
+https://www.ncbi.nlm.nih.gov/protein/9627329
+NP_041802.1
+
+gene="L1", locus_tag="HpV32gp6"
+https://www.ncbi.nlm.nih.gov/protein/9627333
+NP_041806.1
+
+gene="L2, locus_tag="HpV32gp5"
+https://www.ncbi.nlm.nih.gov/protein/9627332
+NP_041805.1
+
+
+HPV36 (Beta 1)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/1020218?report=genbank
+"HPV36":"U31785.1",
+
+gene="E1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020221
+AAA79438.1
+
+gene="E2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020222
+AAA79439.1
+
+gene="E7", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020220
+AAA79437.1
+
+gene="L1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020225
+AAA79442.1
+
+gene="L2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020224
+AAA79442.1
+
+
+HPV 37 (Beta 2)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/1020226?report=genbank
+"HPV37":"U31786.1",
+
+gene="E1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020229
+AAA79445.1
+
+gene="E2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020230
+AAA79446.1
+
+gene="E7", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020228
+AAA79444.1
+
+gene="L1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020233
+AAA79449.1
+
+gene="L2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020232
+AAA79449.1
+
+
+HPV38 (Beta 2)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/1020234?report=genbank
+"HPV38":"U31787.1",
+
+gene="E1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020237
+AAA79452.1
+
+gene="E2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020238
+AAA79453.1
+
+gene="E7", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020236
+AAA79451.1
+
+gene="L1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020241
+AAA79456.1
+
+gene="L2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/1020240
+AAA79455.1
+
+
+HPV41 (Nupa 1)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/NC_001354.1
+"HPV41":"NC_001354.1",
+
+gene="ORF E1", locus_tag="HpV41gp03"
+https://www.ncbi.nlm.nih.gov/protein/9626044
+NP_040287.1
+
+gene="ORF E2", locus_tag="HpV41gp05"
+https://www.ncbi.nlm.nih.gov/protein/9626045
+NP_040289.1
+
+gene="ORF E7", locus_tag="HpV41gp02"
+https://www.ncbi.nlm.nih.gov/protein/9626043
+NP_040286.1
+
+gene="ORF L1", locus_tag="HpV41gp10"
+https://www.ncbi.nlm.nih.gov/protein/9626049
+NP_040294.1
+
+gene="ORF L2", locus_tag="HpV41gp09"
+https://www.ncbi.nlm.nih.gov/protein/9626048
+NP_040293.1
+
+
+
+HPV47 (Beta 1)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/333062?report=genbank
+"HPV47":"M32305.1",
+
+note="ORF E1"
+https://www.ncbi.nlm.nih.gov/protein/333066
+AAA46978.1
+
+note="ORF E2"
+https://www.ncbi.nlm.nih.gov/protein/333067
+AAA46979.1
+
+note="ORF E7"
+https://www.ncbi.nlm.nih.gov/protein/333065
+AAA46977.1
+
+note="ORF L1"
+https://www.ncbi.nlm.nih.gov/protein/333070
+AAA46982.1
+
+note="ORF L2"
+https://www.ncbi.nlm.nih.gov/protein/333069
+AAA46981.1
+
+
+HPV48 (Human papillomavirus type 48)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/NC_001690.1
+"HPV48":"NC_001690.1",
+
+gene="E1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/9628545
+NP_043418.1
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/9628546
+NP_043419.1
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/9628544
+NP_043417.1
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/9628549
+NP_043422.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/9628548
+NP_043421.1
+
+
+HPV49 (Beta 3)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/9627363?report=genbank
+"HPV49":"NC_001591.1",
+
+gene="E1", locus_tag="HpV49gp3"
+https://www.ncbi.nlm.nih.gov/protein/9627366
+NP_041834.1
+
+gene="E2", locus_tag="HpV49gp4"
+https://www.ncbi.nlm.nih.gov/protein/9627367
+NP_041835.1
+
+gene="E7", locus_tag="HpV49gp2"
+https://www.ncbi.nlm.nih.gov/protein/9627365
+NP_041833.1
+
+gene="L1", locus_tag="HpV49gp6"
+https://www.ncbi.nlm.nih.gov/protein/9627369
+NP_041837.1
+
+gene="L2", locus_tag="HpV49gp5"
+https://www.ncbi.nlm.nih.gov/protein/9627368
+NP_041836.1
+
+
+HPV50 (Gamma 3)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/NC_001691.1
+"HPV50":"NC_001691.1",
+
+gene="E1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/9628553
+NP_043425.1
+
+gene="E2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/9628554
+NP_043426.1
+
+gene="E7", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/9628552
+NP_043424.1
+
+gene="L1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/9628557
+NP_043429.1
+
+gene="L2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/9628556
+NP_043428.1
+
+
+HPV60 (Gamma 4)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/NC_001693.1
+"HPV60":"NC_001693.1",
+
+gene="E1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/9628569
+NP_043439.1
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/9628570
+NP_043440.1
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/9628568
+NP_043438.1
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/9628573
+NP_043443.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/9628572
+NP_043442.1
+
+
+HPV62 (Alpha 3)
+https://www.ncbi.nlm.nih.gov/nuccore/39932599?report=genbank
+#genoma
+"HPV62":"AY395706.1",
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/39932602
+AAR32248.1
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/39932603
+AAR32249.1
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/39932601
+AAR32247.1
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/39932606
+AAR32252.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/39932605
+AAR32251.1
+
+
+HPV63 (Mupa 2)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/NC_001458.1
+"HPV63":"NC_001458.1",
+
+gene="E1", locus_tag="HpV63gp3", note="putative E1 ORF"
+https://www.ncbi.nlm.nih.gov/protein/9626608
+NP_040898.1
+
+gene="E2", locus_tag="HpV63gp4", note="putative E2 ORF"
+https://www.ncbi.nlm.nih.gov/protein/9626609
+NP_040899.1
+
+gene="E7", locus_tag="HpV63gp2", note="putative E7 ORF"
+https://www.ncbi.nlm.nih.gov/protein/9626607
+NP_040897.1
+
+gene="L1",ocus_tag="HpV63gp7", note="putative L1 ORF"
+https://www.ncbi.nlm.nih.gov/protein/9626612
+NP_040902.1
+
+gene="L2", locus_tag="HpV63gp6", note="putative L2 ORF"
+https://www.ncbi.nlm.nih.gov/protein/9626611
+NP_040901.1
+
+
+HPV64 (unclassified Papillomaviridae.) Duda creo mejor no usar solo tiene parcial
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/U12495.1
+product="L1 protein, My09/My11 region"
+https://www.ncbi.nlm.nih.gov/protein/577393
+AAA67239.1
+
+
+HPV65 (Gamma 1)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/312100?report=genbank
+"HPV65":"X70829.1",
+
+note="unnamed protein product; putative E1 ORF"
+https://www.ncbi.nlm.nih.gov/protein/312103
+CAA50173.1
+
+note="unnamed protein product; putative E2 ORF"
+https://www.ncbi.nlm.nih.gov/protein/312104
+CAA50174.1
+
+gene="E7"
+note="unnamed protein product; putative E7 ORF"
+https://www.ncbi.nlm.nih.gov/protein/312102
+CAA50172.1
+
+note="unnamed protein product; putative L1 ORF"
+https://www.ncbi.nlm.nih.gov/protein/312107
+CAA50177.1
+
+note="unnamed protein product; putative L2 ORF"
+https://www.ncbi.nlm.nih.gov/protein/312106
+CAA50176.1
+
+
+HPV67 ()
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/3228267?report=genbank
+"HPV67":"D21208.1",
+
+note="unnamed protein product; ORF E1"
+https://www.ncbi.nlm.nih.gov/protein/3228270
+BAA66111.1
+
+note="unnamed protein product; ORF E2"
+https://www.ncbi.nlm.nih.gov/protein/3228271
+BAA66112.1
+
+note="unnamed protein product; ORF E7"
+https://www.ncbi.nlm.nih.gov/protein/3228269
+BAA66110.1
+
+note="unnamed protein product; ORF L1"
+https://www.ncbi.nlm.nih.gov/protein/3228275
+BAA28859.1
+
+note="unnamed protein product; ORF L2"
+https://www.ncbi.nlm.nih.gov/protein/3228274
+BAA66115.1
+
+
+HPV69(Alpha 5)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/6970418?report=genbank
+"HPV69":"AB027020.1",
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/6970421
+BAA90729.1
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/6970422
+BAA90730.1
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/6970420
+BAA90728.1
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/6970426
+BAA90734.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/6970425
+BAA90733.1
+
+
+HPV74 (Alpha 10)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/27462483?report=genbank
+"HPV74":"AF436130.1",
+
+gene="E1", product="putative replication protein 
+https://www.ncbi.nlm.nih.gov/protein/27462486
+AAO15457.1
+
+gene="E2", product="putative regulatory protein E2"
+https://www.ncbi.nlm.nih.gov/protein/27462487
+AAO15458.1
+
+gene="E7", product="putative transforming protein E7"
+https://www.ncbi.nlm.nih.gov/protein/27462485
+AAO15456.1
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/27462491
+AAO15462.1
+
+gene="L2"
+product="putative minor capsid protein L2"
+https://www.ncbi.nlm.nih.gov/protein/27462490
+AAO15461.1
+
+
+HPV75 (Beta 3)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/2911544?report=genbank
+"HPV75":"Y15173.1",
+
+gene="E1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/2911547
+CAA75451.1
+
+gene="E2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/2911548
+CAA75452.1
+
+gene="E7", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/2911546
+CAA75450.1
+
+gene="L1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/2911550
+CAA75454.1"
+
+gene="L2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/2911549
+CAA75453.1
+
+
+HPV76 (Beta 3)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/2911551?report=genbank
+"HPV76":"Y15174.1",
+
+gene="E1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/2911554
+CAA75458.1
+
+gene="E2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/2911555
+CAA75459.1
+
+gene="E7", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/2911553
+CAA75457.1
+
+gene="L1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/2911557
+CAA75461.1
+
+gene="L2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/2911556
+CAA75460.1
+
+
+HPV77 (Alpha 2)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/2911558?report=genbank
+"HPV77":"Y15175.1",
+
+gene="E1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/2911561
+CAA75465.1
+
+gene="E2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/2911562
+CAA75466.1
+
+gene="E7", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/2911560
+CAA75464.1
+
+gene="L1", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/2911564
+CAA75468.1
+
+gene="L2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/2911563
+CAA75467.1
+
+
+-----------------------Alto riesgo:
+HPV16 (Alpha 9)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/1047888727
+
+gene="E1", locus_tag="HpV16gp3"
+https://www.ncbi.nlm.nih.gov/protein/1046490002
+
+gene="E2", locus_tag="HpV16gp4"
+https://www.ncbi.nlm.nih.gov/protein/9627106
+
+gene="E7",locus_tag="HpV16gp2"
+https://www.ncbi.nlm.nih.gov/protein/9627105
+
+gene="L1", locus_tag="HpV16gp8"
+https://www.ncbi.nlm.nih.gov/protein/1046490004
+NP_041332.2
+
+gene="L2", /locus_tag="HpV16gp7"
+https://www.ncbi.nlm.nih.gov/protein/1046490003
+NP_041331.2
+
+
+HPV18 (Alpha 7)
+#genoma
+https://www.ncbi.nlm.nih.gov/nucleotide?cmd=Retrieve&dopt=GenBank&list_uids=9626069
+
+gene="E1", locus_tag="HpV18gp3"
+https://www.ncbi.nlm.nih.gov/protein/9626072
+
+gene="E2", locus_tag="HpV18gp4"
+https://www.ncbi.nlm.nih.gov/protein/9626073
+
+gene="E7", locus_tag="HpV18gp2"
+https://www.ncbi.nlm.nih.gov/protein/9626071
+
+gene="L1", locus_tag="HpV18gp8"
+https://www.ncbi.nlm.nih.gov/protein/9626077
+NP_040317.1
+
+gene="L2", locus_tag="HpV18gp7"
+https://www.ncbi.nlm.nih.gov/protein/9626076
+NP_040316.1
+
+
+HPV45 (Alpha 7)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/397022?report=genbank
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/397025
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/397026
+
+gene="E7
+https://www.ncbi.nlm.nih.gov/protein/397024
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/397029
+CAA52578.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/397028
+CAA52577.1
+
+
+HPV31 (Alpha 9)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/333048?report=genbank
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/459918
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/459919
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/459917
+
+gene="L1", note="ORF L1 from bp 5516 to 7066"
+https://www.ncbi.nlm.nih.gov/protein/459922
+AAA46956.1
+
+gene="L2", note="ORF L2 from bp 4060 to bp 5571"
+https://www.ncbi.nlm.nih.gov/protein/459921
+AAA46955.1
+
+
+HPV33 (Alpha 9)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/333049?report=genbank
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/463179
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/463180
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/463178
+
+gene="L1", note="L1 ORF from bp 5516 to 7093; putative"
+https://www.ncbi.nlm.nih.gov/protein/463183
+AAA46964.1
+
+gene="L2", note="L2 ORF from bp 4198 to 5613; putative"
+https://www.ncbi.nlm.nih.gov/protein/463182
+AAA46963.1
+
+
+HPV35H (Alpha 9)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/396997?report=genbank
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/397000
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/584036
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/396999
+
+gene="L1", 
+https://www.ncbi.nlm.nih.gov/protein/397004
+CAA52566.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/397003
+CAA52565.1
+
+
+HPV39 (Alpha 7)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/M62849.1
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/463188
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/463189
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/463187
+
+gene="L1", note="L1 ORF from bp 5610 to 7160; putative"
+https://www.ncbi.nlm.nih.gov/protein/463192
+AAA47056.1
+
+gene="L2", note="putative"
+https://www.ncbi.nlm.nih.gov/protein/463191
+AAA47055.1
+
+
+HPV51 (Human papilloma virus type 51 genomic DNA, partial sequence) (Alpha 5)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/333087?report=genbank
+Ver si de este genoma podriamos hallar sus genes, que no estan registrados en el NCBI
+
+HPV52 (Alpha 9)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/397038?report=genbank
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/397041
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/397042
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/397040
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/397045
+CAA52590.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/397044
+CAA52589.1
+
+
+HPV56 (Alpha 6)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/397053?report=genbank
+
+COMMENT:  The HPV56 E1 open reading frame is fragmented.
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/397056
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/397055
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/397059
+CAA52600.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/397058
+CAA52599.1
+
+
+HPV58 (Alpha 9)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/222386?report=genbank
+
+note="unnamed protein product; open reading frame E1"
+https://www.ncbi.nlm.nih.gov/protein/3337100
+
+note="unnamed protein product; open reading frame E2"
+https://www.ncbi.nlm.nih.gov/protein/3337101
+
+note="unnamed protein product; open reading frame E7"
+https://www.ncbi.nlm.nih.gov/protein/3337099
+
+note="unnamed protein product; open reading frame L1"
+https://www.ncbi.nlm.nih.gov/protein/3337104
+BAA31851.1
+
+note="unnamed protein product; open reading frame L2"
+https://www.ncbi.nlm.nih.gov/protein/3337103
+BAA31850.1
+
+
+HPV59 (Alpha 7)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/557236?report=genbank
+
+gene="ORF putative E1"
+https://www.ncbi.nlm.nih.gov/protein/557239
+
+gene="ORF putative E2"
+https://www.ncbi.nlm.nih.gov/protein/557240
+
+gene="ORF putative E7"
+https://www.ncbi.nlm.nih.gov/protein/557238
+
+gene="ORF putative L1"
+https://www.ncbi.nlm.nih.gov/protein/557244
+CAA54856.1
+
+gene="ORF putative L2"
+https://www.ncbi.nlm.nih.gov/protein/557243
+CAA54855.1
+
+
+HPV68a (Alpha 7)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/71726685?report=genbank
+
+product="E1 protein"
+https://www.ncbi.nlm.nih.gov/protein/71726688
+
+product="E2 protein"
+https://www.ncbi.nlm.nih.gov/protein/71726689
+
+product="E7 protein"
+https://www.ncbi.nlm.nih.gov/protein/71726687
+
+product="L1 protein"
+https://www.ncbi.nlm.nih.gov/protein/71726693
+AAZ39498.1
+
+product="L2 protein"
+https://www.ncbi.nlm.nih.gov/protein/71726692
+AAZ39497.1
+
+
+HPV68b (Alpha 7)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/FR751039.1
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/315629562
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/315629563
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/315629561
+
+gene="L1", product="L1 protein"
+https://www.ncbi.nlm.nih.gov/protein/315629567
+CBY85074.1
+
+gene="L2", /product="L2 protein"
+https://www.ncbi.nlm.nih.gov/protein/315629566
+CBY85073.1
+
+
+HPV73 (Alpha 11)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/X94165.1
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/1491695
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/1491696
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/1491694
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/1491698
+CAA63887.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/1491697
+CAA63886.1
+
+
+HPV82 (Alpha 5)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/6970427?report=genbank
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/6970430
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/6970431
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/6970429
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/6970435
+BAA90742.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/6970434
+BAA90741.1
+
+
+-----------------------Probable alto riesgo: 
+
+HPV23 (Beta 2)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/1020186?report=genbank
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/1020189
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/1020190
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/1020188
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/1020193
+AAA79414.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/1020192
+AAA79413.1
+
+
+HPV53 (Alpha 6)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/NC_001593.1
+
+locus_tag="HpV53gp3"
+product="Replication protein E1 fragment"
+https://www.ncbi.nlm.nih.gov/protein/19263407
+
+locus_tag="HpV53gp4"
+product="Replication protein E1 fragment"
+https://www.ncbi.nlm.nih.gov/protein/19263408
+
+gene="E2",locus_tag="HpV53gp5"
+https://www.ncbi.nlm.nih.gov/protein/9627380
+
+gene="E7", locus_tag="HpV53gp2
+https://www.ncbi.nlm.nih.gov/protein/9627379
+
+gene="L1", locus_tag="HpV53gp7"
+https://www.ncbi.nlm.nih.gov/protein/9627382
+NP_041848.1
+
+gene="L2", locus_tag="HpV53gp6"
+https://www.ncbi.nlm.nih.gov/protein/9627381
+NP_041847.1
+
+
+HPV66 (Alpha 6)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/1020290?report=genbank
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/1020293
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/1020294
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/1020292
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/1020297
+AAA79505.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/1020296
+AAA79504.1
+
+
+---------------------Bajo riesgo: 
+
+HPV6b (6,6a,6c,6e,6vc) (Alpha 10)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/9626053?report=genbank
+
+gene="E1", locus_tag="HPV6bgp3"
+https://www.ncbi.nlm.nih.gov/protein/9626056
+
+gene="E2", locus_tag="HPV6bgp4
+https://www.ncbi.nlm.nih.gov/protein/9626057
+
+gene="E7", locus_tag="HPV6bgp2"
+https://www.ncbi.nlm.nih.gov/protein/9626055
+
+gene="L1", locus_tag="HPV6bgp9"
+https://www.ncbi.nlm.nih.gov/protein/9626062
+NP_040304.1
+
+gene="L2", locus_tag="HPV6bgp8"
+https://www.ncbi.nlm.nih.gov/protein/9626061
+NP_040303.1
+
+
+HPV11 (Alpha 10)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/333026?report=genbank
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/496195
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/496196
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/496194
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/496201
+AAA46935.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/496200
+AAA46934.1
+
+
+HPV40 (Alpha 8)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/397014?report=genbank
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/397017
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/397018
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/397016
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/397021
+CAA52572.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/397020
+CAA52571.1
+
+
+HPV42 (es raro no viene tal cual) (Alpha 1) SE completo
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/M73236.1
+
+note="5' end of the coding region for ORF E1 not determined"
+https://www.ncbi.nlm.nih.gov/protein/333214
+AAA47043.1
+
+E2 no tiene
+
+note="5' end of the coding region for ORF E7 not determined"
+https://www.ncbi.nlm.nih.gov/protein/333213
+AAA47042.1
+
+note="5' end of the coding region for ORF L1 not determined"
+https://www.ncbi.nlm.nih.gov/protein/333219
+AAA47048.1
+
+note="5' end of the coding region for ORF L2 notv determined"
+https://www.ncbi.nlm.nih.gov/protein/333218
+AAA47047.1
+
+
+HPV43 (Alpha 8)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/40804474?report=genbank
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/40804477
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/40804478
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/40804476
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/40804481
+CAF05789.1
+
+gene="L1", note="alternative", product="protein L1a"
+https://www.ncbi.nlm.nih.gov/protein/40804482
+CAF05790.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/40804480
+CAF05788.1
+
+
+HPV44 (Alpha 10)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/1020242?report=genbank
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/1020245
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/1020246
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/1020244
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/1020249
+AAA79463.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/1020248
+AAA79462.1
+
+
+HPV54 (Alpha 13)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/NC_001676.1
+
+gene="E1", locus_tag="HpV54gp3"
+https://www.ncbi.nlm.nih.gov/protein/9628440
+
+gene="E2", locus_tag="HpV54gp4"
+https://www.ncbi.nlm.nih.gov/protein/9628441
+
+gene="E7", locus_tag="HpV54gp2
+https://www.ncbi.nlm.nih.gov/protein/9628439
+
+gene="L1", locus_tag="HpV54gp7"
+https://www.ncbi.nlm.nih.gov/protein/9628444
+NP_043294.1
+
+gene="L2", locus_tag="HpV54gp6"
+https://www.ncbi.nlm.nih.gov/protein/9628443
+NP_043293.1
+
+
+HPV61 (Alpha 3)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/NC_001694.1
+
+gene="E1", locus_tag="HpV61gp3"
+https://www.ncbi.nlm.nih.gov/protein/9628577
+
+gene="E2", locus_tag="HpV61gp4"
+https://www.ncbi.nlm.nih.gov/protein/9628578
+
+gene="E7", locus_tag="HpV61gp2"
+https://www.ncbi.nlm.nih.gov/protein/9628576
+
+gene="L1", locus_tag="HpV61gp7"
+https://www.ncbi.nlm.nih.gov/protein/9628581
+NP_043450.1
+
+gene="L2", locus_tag="HpV61gp6"
+https://www.ncbi.nlm.nih.gov/protein/9628580
+NP_043449.1
+
+
+HPV70 (Alpha 7)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/1173493?report=genbank
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/1160343
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/1160344
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/717153
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/1160346
+AAC54857.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/1173494
+AAC54856.1
+
+
+HPV72 (Alpha 3)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/633675051
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/633675052
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/633675053
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/633675056
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/633675057
+AHZ58195.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/633675058
+AHZ58196.1
+
+
+HPV81 (Alpha 3)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/40804509?report=genbank
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/40804512
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/40804513
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/40804511
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/40804516
+CAF05698.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/40804515
+CAF05697.1
+
+
+----------------------Riesgo no determinado: 34,57,83
+
+HPV34 (Alpha 11)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/NC_001587.1
+
+gene="E1", locus_tag="HpV34gp3"
+https://www.ncbi.nlm.nih.gov/protein/9627337
+
+gene="E2", locus_tag="HpV34gp4"
+https://www.ncbi.nlm.nih.gov/protein/9627338
+
+gene="E7", locus_tag="HpV34gp2"
+https://www.ncbi.nlm.nih.gov/protein/9627336
+
+gene="L1", locus_tag="HpV34gp6"
+https://www.ncbi.nlm.nih.gov/protein/9627340
+NP_041812.1
+
+gene="L2", locus_tag="HpV34gp5"
+https://www.ncbi.nlm.nih.gov/protein/9627339
+NP_041811.1
+
+
+HPV57b (Alpha 4)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/1845202
+#Este no tiene otros gnes, ver si podemos hallarlos
+
+product="putative L1 protein"
+https://www.ncbi.nlm.nih.gov/protein/1845203
+AAC56600.1
+
+
+HPV57c
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/157678963
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/157678966
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/157678967
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/157678965
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/157678970
+BAF80486.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/157678969
+BAF80485.1
+
+
+HPV83 (Alpha 3)
+#genoma
+https://www.ncbi.nlm.nih.gov/nuccore/5059324?report=genbank
+
+gene="E1"
+https://www.ncbi.nlm.nih.gov/protein/5059327
+
+gene="E2"
+https://www.ncbi.nlm.nih.gov/protein/5059328
+
+gene="E7"
+https://www.ncbi.nlm.nih.gov/protein/5059326
+
+gene="L1"
+https://www.ncbi.nlm.nih.gov/protein/5059331
+AAD38974.1
+
+gene="L2"
+https://www.ncbi.nlm.nih.gov/protein/5059330
+AAD38973.1
+
+
+---------------------------------------
+Dudas puede haber akguna no clasificada que produsca cancer
+
+
+----------------------------------------
+
+https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=333750
+# Algunas clasificaciones:
+
+
+    Alphapapillomavirus    
+        Alphapapillomavirus 1   
+            human papillomavirus 42   
+            Human papillomavirus type 32    
+        Alphapapillomavirus 10   
+            Common chimpanzee papillomavirus 1   
+            human papillomavirus 11   
+            human papillomavirus 13   
+            human papillomavirus 44   
+            human papillomavirus 74   
+            Human papillomavirus type 55   
+            Human papillomavirus type 6   
+            Human papillomavirus type 6a   
+            Human papillomavirus type 6b   
+            Human papillomavirus type 6c   
+            Human papillomavirus type 6e   
+            Human papillomavirus type 6vc   
+            Pan paniscus papillomavirus 1   
+            Pygmy chimpanzee papillomavirus type 1   
+                Pygmy chimpanzee papillomavirus type 1c    
+        Alphapapillomavirus 11   
+            human papillomavirus 73   
+            Human papillomavirus type 177   
+            Human papillomavirus type 34    
+        Alphapapillomavirus 12   
+            Macaca fascicularis papillomavirus 10   
+            Macaca fascicularis papillomavirus 11   
+            Macaca fascicularis papillomavirus 3   
+            Macaca fascicularis papillomavirus 3b   
+            Macaca fascicularis papillomavirus 4   
+            Macaca fascicularis papillomavirus 5   
+            Macaca fascicularis papillomavirus 6   
+            Macaca fascicularis papillomavirus 7   
+            Macaca fascicularis papillomavirus 8   
+            Macaca fascicularis papillomavirus 9   
+            Macaca fuscata papillomavirus 1   
+            Macaca mulata papillomavirus 1   
+            Papio hamadryas papillomavirus 1   
+            Rhesus papillomavirus 1b    
+        Alphapapillomavirus 13   
+            Human papillomavirus type 54    
+        Alphapapillomavirus 14   
+            Colobus guereza papillomavirus 1   
+            human papillomavirus 106   
+            human papillomavirus 71   
+            Human papillomavirus type 90    
+        Alphapapillomavirus 2   
+            Human papillomavirus 117   
+            Human papillomavirus 125   
+            Human papillomavirus 160   
+            Human papillomavirus 28   
+            Human papillomavirus 29   
+            Human papillomavirus 3   
+            Human papillomavirus 77   
+            Human papillomavirus 94   
+            Human papillomavirus type 10   
+            Human papillomavirus type XS2    
+        Alphapapillomavirus 3   
+            human papillomavirus 102   
+            human papillomavirus 62   
+            human papillomavirus 72   
+                Human papillomavirus type 72b    
+            human papillomavirus 81   
+            human papillomavirus 83   
+            human papillomavirus 84   
+            human papillomavirus 86   
+            human papillomavirus 87   
+            human papillomavirus 89   
+            Human papillomavirus type 114   
+            Human papillomavirus type 61    
+        Alphapapillomavirus 4   
+            human papillomavirus 27   
+                Human papillomavirus type 27b    
+            human papillomavirus 57   
+                Human papillomavirus type 57b   
+                Human papillomavirus type 57c    
+            Human papillomavirus type 2   
+            Human papillomavirus type 2a   
+            Human papillomavirus type 2c    
+        Alphapapillomavirus 5   
+            human papillomavirus 51   
+            human papillomavirus 69   
+            human papillomavirus 82   
+            Human papillomavirus type 26    
+        Alphapapillomavirus 6   
+            human papillomavirus 30   
+            human papillomavirus 56   
+            human papillomavirus 66   
+            Human papillomavirus type 53    
+        Alphapapillomavirus 7   
+            human papillomavirus 39   
+            human papillomavirus 45   
+            human papillomavirus 59   
+            human papillomavirus 68   
+                Human papillomavirus type 68a   
+                Human papillomavirus type 68b    
+            human papillomavirus 85   
+            human papillomavirus 97   
+            Human papillomavirus type 18   
+            Human papillomavirus type 70    
+        Alphapapillomavirus 8   
+            human papillomavirus 40   
+            human papillomavirus 43   
+            human papillomavirus 91   
+            Human papillomavirus type 7    
+        Alphapapillomavirus 9   
+            human papillomavirus 31   
+            human papillomavirus 33   
+            human papillomavirus 35   
+                Human papillomavirus type 35H    
+            human papillomavirus 52   
+            human papillomavirus 58   
+            human papillomavirus 67   
+            Human papillomavirus type 16    
+        unclassified Alphapapillomavirus   
+            Macaca mulatta papillomavirus 6   
+            Macaca mulatta papillomavirus M010   
+            Macaca mulatta papillomavirus M011   
+            Macaca mulatta papillomavirus OTUfA116   
+            Macaca mulatta papillomavirus OTUfA3   
+            Macaca mulatta papillomavirus OTUfa3772   
+            Macaca mulatta papillomavirus OTUfA44   
+            Macaca mulatta papillomavirus OTUfA8   
+            Macaca mulatta papillomavirus OTUmA10   
+            Macaca mulatta papillomavirus OTUmA11   
+            Macaca mulatta papillomavirus OTUmA12   
+            Macaca mulatta papillomavirus OTUmA146   
+            Macaca mulatta papillomavirus OTUmA15   
+            Macaca mulatta papillomavirus OTUmA20   
+            Macaca mulatta papillomavirus OTUmA28   
+            Macaca mulatta papillomavirus OTUmA32   
+            Macaca mulatta papillomavirus OTUmA89   
+            Papio hamadryas papillomavirus 2   
+            Papio hamadryas papillomavirus 3   
+            Alphapapillomavirus sp.    
+
+
+
+https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Undef&id=333922&lvl=3&keep=1&srchmode=1&unlock
+
+    Betapapillomavirus     
+        Betapapillomavirus 1   
+            Colobus guereza papillomavirus 2   
+            Human papillomavirus 105   
+            human papillomavirus 118   
+            human papillomavirus 12   
+            human papillomavirus 124   
+            human papillomavirus 14   
+                Human papillomavirus type 14D    
+            Human papillomavirus 143   
+            Human papillomavirus 152   
+            Human papillomavirus 19   
+            human papillomavirus 20   
+            human papillomavirus 21   
+            human papillomavirus 24   
+            human papillomavirus 25   
+            human papillomavirus 36   
+            human papillomavirus 47   
+            Human papillomavirus 5   
+            Human papillomavirus 93   
+            Human papillomavirus 98   
+            Human papillomavirus 99   
+            Human papillomavirus RTRX7   
+            Human papillomavirus type 195   
+            Human papillomavirus type 196   
+            Human papillomavirus type 5b   
+            Human papillomavirus type 8   
+            Human papillomavirus V001/Slovenia/2010   
+            Macaca fascicularis papillomavirus type 1    
+        Betapapillomavirus 2   
+            Human papillomavirus 100   
+            Human papillomavirus 104   
+                Human papillomavirus FA75/KI88-03    
+            Human papillomavirus 107   
+            Human papillomavirus 110   
+            Human papillomavirus 111   
+            Human papillomavirus 113   
+            Human papillomavirus 120   
+            Human papillomavirus 122   
+            Human papillomavirus 145   
+            Human papillomavirus 15   
+            Human papillomavirus 151   
+            Human papillomavirus 159   
+            Human papillomavirus 17   
+            Human papillomavirus 174   
+            Human papillomavirus 22   
+            Human papillomavirus 23   
+            Human papillomavirus 37   
+            Human papillomavirus 38   
+                Human papillomavirus type 38b    
+            Human papillomavirus 80   
+            Human papillomavirus 9   
+            Human papillomavirus type 182   
+            Human papillomavirus type 209    
+        Betapapillomavirus 3   
+            human papillomavirus 115   
+            human papillomavirus 75   
+            human papillomavirus 76   
+            Human papillomavirus type 49    
+        Betapapillomavirus 4   
+            Human papillomavirus type 92    
+        Betapapillomavirus 5   
+            human papillomavirus 150   
+            Human papillomavirus type 185   
+            Human papillomavirus type 96    
+        Betapapillomavirus 6   
+            Macaca fascicularis papillomavirus 2    
+        unclassified Betapapillomavirus   
+            Colobus monkey papillomavirus   
+                Colobus monkey papillomavirus type 1   
+                Colobus monkey papillomavirus type 2    
+            Human betapapillomavirus   
+            Macaca fascicularis papillomavirus   
+            Macaca mulatta papillomavirus OTUfA53    
