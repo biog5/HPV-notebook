@@ -271,7 +271,7 @@ import time
 import os
 
 
-def AlinearRiesgos0():
+def AlinearRiesgos():
     global cont_querry
     cont_querry = 0
     for gen in genes:
@@ -286,6 +286,13 @@ def AlinearRiesgos0():
                 archivo_salida = "BD/" + genoma + gen + "_high_vs_" + gen + "_low.blast"
                 archivo_salida2 = "BD/" + genoma + gen + "_high_vs_" + gen + "_unspecified.blast"
                 archivo_salida3 = "BD/" + genoma + gen + "_high_vs_" + gen + "_high.blast"
+                # Eliminar archivos de salida existentes
+                if os.path.exists(archivo_salida):
+                    os.remove(archivo_salida)
+                if os.path.exists(archivo_salida2):
+                    os.remove(archivo_salida2)
+                if os.path.exists(archivo_salida3):
+                    os.remove(archivo_salida3)
                 #result = run(['blastp', '-query', 'BD/HPV16E1.fasta', '-subject', 'BD/low_riskE1.fasta', '-out','BD/HPV16E1_high_vs_E1_low.blast'], stdout=PIPE)
                 blast1 = ["blastp", "-query", archivo_high, "-subject", archivo_low, "-out", archivo_salida]
                 blast2 = ["blastp", "-query", archivo_high, "-subject", archivo_unspecified, "-out", archivo_salida2]
@@ -320,7 +327,7 @@ import subprocess
 import Bio
 import Bio.AlignIO as bpio
 
-def AlinearRiesgos():
+def AlinearRiesgos1():
     global cont_querry
     cont_querry = 0
     for gen in genes:
