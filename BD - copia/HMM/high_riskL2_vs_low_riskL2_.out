@@ -1,0 +1,299 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  high_riskL2_modelo.hmm
+# target sequence database:        low_riskL2.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       high_riskL2_seed_msa  [M=462]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------    -----------
+   2.5e-228  747.2  15.5   2.8e-228  747.1  15.5    1.0  1  NP_041847.1  late protein [Human papillomavirus type 53]
+   9.1e-228  745.4  21.3     1e-227  745.2  21.3    1.0  1  AAZ39497.1   L2 protein [Human papillomavirus type 68a]
+   1.5e-198  649.1   7.4   1.7e-198  648.9   7.4    1.0  1  BAF80485.1   L2 [Human papillomavirus type 57c]
+   3.1e-191  625.0  18.3   3.5e-191  624.8  18.3    1.0  1  AAA47047.1   5' end of the coding region for ORF L2 not deter
+   2.7e-187  612.0  13.4     3e-187  611.8  13.4    1.0  1  AAA46934.1   minor capsid protein [human papillomavirus 11]
+   1.2e-184  603.2  15.3   1.4e-184  603.0  15.3    1.0  1  CAA52571.1   late protein [human papillomavirus 40]
+   9.7e-184  600.2  17.5   1.1e-183  600.1  17.5    1.0  1  NP_043293.1  minor capsid protein [Human papillomavirus type 
+
+
+Domain annotation for each sequence (and alignments):
+>> NP_041847.1  late protein [Human papillomavirus type 53]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  747.1  15.5  2.8e-228  2.8e-228       1     462 []       1     463 []       1     463 [] 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 747.1 bits;  conditional E-value: 2.8e-228
+  high_riskL2_seed_msa   1 mrskrstrrkrasatqlyktckasGtcPpdvipkvegttladkilkygslgvflGGlGiGtGsGtGGrtGyvPlgtrpstvvdvspirP 89 
+                           m+++r+ rrkrasatqly+tck+sGtcP+dvi+k+e++t+adkil++gsl++f+GGlGiGtGsGtGGrtGy+Plgtrpstvvdv+p+rP
+           NP_041847.1   1 MVAHRARRRKRASATQLYQTCKQSGTCPEDVINKIEHKTWADKILQWGSLFTFFGGLGIGTGSGTGGRTGYIPLGTRPSTVVDVTPARP 89 
+                           99*************************************************************************************** PP
+
+  high_riskL2_seed_msa  90 PvvvepvGPldpsivslveessviesGapvPsitgtsGfdittsadttPailditsvsssvqivsth.tnPtftdPsvlepPataevsG 177
+                           P+vve+vGP+dpsiv+lveessviesGa+ P++tgt+Gf++t+s++ttPa+ldit++s+sv+++st  tnPtf+dP+v+e+P+t+evsG
+           NP_041847.1  90 PIVVESVGPTDPSIVTLVEESSVIESGASFPNFTGTAGFEVTSSSTTTPAVLDITPTSTSVHVSSTTyTNPTFVDPPVIEVPQTGEVSG 178
+                           ****************************************************************9999********************* PP
+
+  high_riskL2_seed_msa 178 hlllssptisthsyeeiPldtfvvstdseevisstPiPgvrrvarlglysratqqvkvvdpafltsPsklvtydnPafegvdadetlaf 266
+                           ++l+s+pt+++hsyeeiP++tf+v+++++e+isstPiPg+rr+a+++ly++a+qqvkv+dpafl +P++l+  dnP+f++   d+tl+f
+           NP_041847.1 179 NILISTPTSGVHSYEEIPMQTFAVQGTGNEPISSTPIPGLRRIAAPRLYKKAFQQVKVTDPAFLHKPETLINVDNPIFQNA--DTTLTF 265
+                           ******************************************************************************987..****** PP
+
+  high_riskL2_seed_msa 267 eesdisiaPdpdfldiialhrPaltsrrgtvrfsrlGkkatlrtrsGkqiGarvhyyqdispiapaeeeielqpllsastsindglydi 355
+                           +  ++ +aPdpdfldi+alhrPa+t+rrg+vrfsrlG kat+rtrsGkqiGarvhyy+d+spi+++ee ie+qplls+  +++dglydi
+           NP_041847.1 266 S--PSGVAPDPDFLDIVALHRPAFTTRRGGVRFSRLGTKATMRTRSGKQIGARVHYYYDVSPITQTEE-IEMQPLLST-DNTFDGLYDI 350
+                           *..99***********************************************************9977.******999.899******* PP
+
+  high_riskL2_seed_msa 356 yadddtavdtkstl.......sslktvastlaatktsnvtvPlssgfdvPvvsGPdivlpstesasplvPiaplsptksiivdgadfvl 437
+                           ya+ d +  ++s++        +++tv+ + ++ +tsnvt+P+++++dvP++sGPd+vlp+ + ++p+ P++p+++t++++++g+ f+l
+           NP_041847.1 351 YANIDDEAPVSSRFsiatpsrLPTNTVPLS-FSGSTSNVTIPFGTSWDVPIYSGPDVVLPTGPPTWPYAPQSPFDTTHDVVIQGSTFAL 438
+                           **8877777766666677743344444444.6889****************************************************** PP
+
+  high_riskL2_seed_msa 438 hPsyyllrrrrkripyffadvsvaa 462
+                           +P+y+l rrrrkripyf+ad+ vaa
+           NP_041847.1 439 WPVYFLKRRRRKRIPYFLADGGVAA 463
+                           ***********************97 PP
+
+>> AAZ39497.1  L2 protein [Human papillomavirus type 68a]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  745.2  21.3    1e-227    1e-227       1     461 [.       1     468 [.       1     469 [] 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 745.2 bits;  conditional E-value: 1e-227
+  high_riskL2_seed_msa   1 mrskrstrrkrasatqlyktckasGtcPpdvipkvegttladkilkygslgvflGGlGiGtGsGtGGrtGyvPlgtrpstvvdvspirP 89 
+                           m+s+r++rrkrasat+lyktck+sGtcP+dvi+kvegttladkil+++slg+flGGlGiGtGsGtGGr+Gy+Plg++p+tvvdvsp+rP
+            AAZ39497.1   1 MVSHRAARRKRASATDLYKTCKQSGTCPSDVINKVEGTTLADKILQWTSLGIFLGGLGIGTGSGTGGRAGYIPLGGKPNTVVDVSPARP 89 
+                           99*************************************************************************************** PP
+
+  high_riskL2_seed_msa  90 PvvvepvGPldpsivslveessviesGapvPsitgtsGfdittsadttPailditsvsssvqivsth.tnPtftdPsvlepPataevsG 177
+                           Pvv+epvGP++psiv+lve+ssvi+sG+pvP++tgtsGf+it+s++ttPa+ldit++s svq++st+ tnP+ftdP+++e+P+t+evsG
+            AAZ39497.1  90 PVVIEPVGPTEPSIVQLVEDSSVITSGTPVPTFTGTSGFEITSSSTTTPAVLDITPSSGSVQVSSTSfTNPAFTDPTIIEVPQTGEVSG 178
+                           ***************************************************************************************** PP
+
+  high_riskL2_seed_msa 178 hlllssptisthsyeeiPldtfvvstdseevisstPiPgvrrvarlglysratqqvkvvdpafltsPsklvtydnPafegvdadetlaf 266
+                           ++++s+pt++th+yeeiP+++f+++++++e+isstPiPgv+rva+++lysra+qqv+v++++f+t+Ps++vt+dnPafe+v  d+tl++
+            AAZ39497.1 179 NVFVSTPTSGTHGYEEIPMQVFATHGTGTEPISSTPIPGVSRVAGPRLYSRAHQQVRVSNFDFVTHPSSFVTFDNPAFEPV--DTTLTY 265
+                           *********************************************************************************..****** PP
+
+  high_riskL2_seed_msa 267 eesdisiaPdpdfldiialhrPaltsrrgtvrfsrlGkkatlrtrsGkqiGarvhyyqdispiapaeeeielqpllsas.tsindglyd 354
+                           e  +++iaPdpdfldi++lhrPaltsrrgtvrfsr+Gkkat++tr+G+qiGa+vhyy+dis+i+pa++ ielqpl+  + ++  d lyd
+            AAZ39497.1 266 E--PADIAPDPDFLDIVRLHRPALTSRRGTVRFSRVGKKATMFTRRGTQIGAQVHYYHDISNITPADS-IELQPLVAPEqADPMDNLYD 351
+                           *..9*************************************************************977.******976648899***** PP
+
+  high_riskL2_seed_msa 355 iyadd.dtavdtkstl..........sslktvastlaatktsnvtvPlssgfdvPvvsGPdivlpstesasplvPiaplsptksiivdg 432
+                           iya d d+++  ++++           s++++as+ a+t+++n+t+Pl++++++Pv++GPd+vlpst+ + pl+P++p+++t +i++ g
+            AAZ39497.1 352 IYAPDtDNTTVLDTAFhnatfttrshISVPSLASA-ASTTYTNTTIPLGTAWNTPVNTGPDVVLPSTTPQLPLTPSTPIDTTFAITIYG 439
+                           ***65455544444335688887643233344443.8899************************************************* PP
+
+  high_riskL2_seed_msa 433 adfvlhPsyyllrrrrkripyffadvsva 461
+                           ++++l P++++l ++rk +pyff+d+ va
+            AAZ39497.1 440 SNYYLLPLLFFLLKKRKHLPYFFTDGIVA 468
+                           ***************************99 PP
+
+>> BAF80485.1  L2 [Human papillomavirus type 57c]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  648.9   7.4  1.7e-198  1.7e-198       4     462 .]       3     465 .]       1     465 [] 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 648.9 bits;  conditional E-value: 1.7e-198
+  high_riskL2_seed_msa   4 krstrrkrasatqlyktckasGtcPpdvipkvegttladkilkygslgvflGGlGiGtGsGtGGrtGyvPlgtrpstvvdvs.pirPPv 91 
+                            r+ rrkras t+ly+tck++GtcPpd+ip+ve++tlad+ilk+gslgvf+GGlGiGtGsGtGGrtGy+P+gtrp+tvvdv  + rPP+
+            BAF80485.1   3 PRAKRRKRASPTDLYRTCKQAGTCPPDIIPRVEQDTLADRILKWGSLGVFFGGLGIGTGSGTGGRTGYIPVGTRPTTVVDVGlAPRPPI 91 
+                           699****************************************************************************886256**** PP
+
+  high_riskL2_seed_msa  92 vvepvGPldpsivslveessviesGapvPsitgtsGfdittsadttPailditsvsssvqivsth.tnPtftdPsvlepPataevsGhl 179
+                           v+epvG ++psiv+lve+ss+i++G++ P++tgt+Gf++tts+ t Pa+ldit++++ vq++s++  nP ftdP+++e+P+t+ev+Gh+
+            BAF80485.1  92 VIEPVGASEPSIVNLVEDSSIINAGSSHPTFTGTGGFEVTTSTVTDPAVLDITPSGNGVQVSSSSfVNPLFTDPAIIEAPQTGEVTGHV 180
+                           **************************************************************9999*********************** PP
+
+  high_riskL2_seed_msa 180 llssptisthsyeeiPldtfvvst.dseevisstPiPgvrrvarlglysratqqvkvvdpafltsPsklvtydnPafegvdadetlafe 267
+                           l+s++t+++h++eeiP++tf++s+ d+ e+isstP+Pgvrrva+++lysra+qqv+v dpaf+++P+ lvt+dnP++++   +et+ f+
+            BAF80485.1 181 LVSTATSGSHGFEEIPMQTFATSGgDGGEPISSTPVPGVRRVAGPRLYSRANQQVRVWDPAFIERPADLVTFDNPIYDP---EETIIFQ 266
+                           *********************9953899*************************************************76...6****** PP
+
+  high_riskL2_seed_msa 268 esdisiaPdpdfldiialhrPalts.rrgtvrfsrlGkkatlrtrsGkqiGarvhyyqdispiapaeeeielqpllsastsindglydi 355
+                           +   ++ Pdpdfldi++lhrPalts r+gtvrfsrlG++atlrtrsGkqiGarvh+y+disp+ap+  e+e+ pll      ++ lydi
+            BAF80485.1 267 HPGLHEPPDPDFLDIVSLHRPALTStRQGTVRFSRLGRRATLRTRSGKQIGARVHFYHDISPVAPE--ELEMEPLLPP---PSEPLYDI 350
+                           ***********************975789**********************************975..69*****987...7889**** PP
+
+  high_riskL2_seed_msa 356 yadddtavdtkstl..........sslktvastlaatktsnvtvPlssgfdvPvvsGPdivlpstesasplvPiaplsptksiivdgad 434
+                           ya++d+ +  +s +          +  ++v++++a+t    +tvPls g dvPv++GPdi  ++ + + plvP+ p+ p++ +++ g+d
+            BAF80485.1 351 YAESDFLQPLDSDVpaaprgtlslA-DTAVSASSASTLRGATTVPLSGGVDVPVYTGPDIDPSVGPGMGPLVPVIPAIPSS-VYIVGGD 437
+                           ****999988888788899988532.334444458889999************************************9987.9****** PP
+
+  high_riskL2_seed_msa 435 fvlhPsyyllrrrrkripyffadvsvaa 462
+                           ++l Psy l  +rrkr+ yffad++vaa
+            BAF80485.1 438 YYLLPSYVLWPKRRKRVHYFFADGYVAA 465
+                           **************************97 PP
+
+>> AAA47047.1  5' end of the coding region for ORF L2 not determined, partial [human papillomavirus 42]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  624.8  18.3  3.5e-191  3.5e-191       3     462 .]      28     502 .]      26     502 .] 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 624.8 bits;  conditional E-value: 3.5e-191
+  high_riskL2_seed_msa   3 skrstrrkrasatqlyktckasGtcPpdvipkvegttladkilkygslgvflGGlGiGtGsGtGGrtGyvPlgtrpstvv.dvspirPP 90 
+                            +rs rrkrasatqly+tckasGtcPpdvipkvegttladkil++gslgvf+GGlGiGtG+GtGGrtGyvPlgtrp+ ++ +  ++rPP
+            AAA47047.1  28 PQRSRRRKRASATQLYQTCKASGTCPPDVIPKVEGTTLADKILQWGSLGVFFGGLGIGTGAGTGGRTGYVPLGTRPPVIAePGPAVRPP 116
+                           68******************************************************************************555669*** PP
+
+  high_riskL2_seed_msa  91 vvvepvGPldpsivslveessviesGapvPsitgtsGfdittsa...dttPailditsvsssvqivsth.tnPtftdPsvlepPataev 175
+                           ++v++vGP+dpsivsl+eessvi++G  vP it+++Gf+itts+    +tPaildi++ ++++++++t  tnP ++dP  l+pP +aev
+            AAA47047.1 117 IAVDTVGPSDPSIVSLLEESSVIDAGITVPDITSHGGFNITTSTggpASTPAILDISPPTNTIRVTTTTsTNPLYIDPFTLQPPLPAEV 205
+                           ******************************************9844458**************9988777******************* PP
+
+  high_riskL2_seed_msa 176 sGhlllssptisthsyeeiPldtfvvstdseevisstPiPgvrrvarlglysratqqvkvvdpafltsPsklvtydnPafegvdadetl 264
+                            G+ll+s+pti+ hsyeeiP+dtfvvstd+++  +stPiPg r  arlglysratqq  v+++afltsP++lvtydnPa+eg+ +++tl
+            AAA47047.1 206 NGRLLISTPTITPHSYEEIPMDTFVVSTDTTNTFTSTPIPGPRSSARLGLYSRATQQRPVTTSAFLTSPARLVTYDNPAYEGL-TEDTL 293
+                           ***********************************************************************************.9**** PP
+
+  high_riskL2_seed_msa 265 afeesdisiaPdpdfldiialhrPaltsrrgtvrfsrlGkkatlrtrsGkqiGarvhyyqdispiapaeeeielqpllsas....tsin 349
+                            fe+ +i++aPdpdf+di+alhrP l+s++g+vr sr+G++ +++tr+G++ G+rvh+++d+spi+ ++e+ielqpl  +s    ++in
+            AAA47047.1 294 VFEHPSIHTAPDPDFMDIVALHRPMLSSKQGSVRVSRIGQRLSMQTRRGTRFGSRVHFFHDLSPITHSSETIELQPLSASSvsaaSNIN 382
+                           *****************************************************************************955455569*** PP
+
+  high_riskL2_seed_msa 350 dglydiyadd.dtavdtkstl.............sslktvastlaatktsnvtvPlssgfdvPvvsGPdivlpstesasplvPiaplsp 424
+                           dgl+diy d+ d +v++++++             +s +t++s  ++t+++n+t+P+s  f   v  GPd+ +   ++ +  +P++ +  
+            AAA47047.1 383 DGLFDIYVDTsDVNVTNTTSSipmhgfatprlstTSFPTLPS--MSTHSANTTIPFS--FPATVHVGPDLSV--VDHPWDSTPTSVMPQ 465
+                           *********966555544444799999987764434444444..6899*******96..8889999***977..788899999999999 PP
+
+  high_riskL2_seed_msa 425 tksiivdgadfvlhPsyyllrrrrkripyffadvsvaa 462
+                            + ++v g df+lhPsy+  rrrrk +pyffadv+vaa
+            AAA47047.1 466 GNFVMVSGWDFILHPSYFW-RRRRKPVPYFFADVRVAA 502
+                           999*************985.889*************97 PP
+
+>> AAA46934.1  minor capsid protein [human papillomavirus 11]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  611.8  13.4    3e-187    3e-187       4     459 ..       3     454 ..       1     455 [] 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 611.8 bits;  conditional E-value: 3e-187
+  high_riskL2_seed_msa   4 krstrrkrasatqlyktckasGtcPpdvipkvegttladkilkygslgvflGGlGiGtGsGtGGrtGyvPlgtrpstvvdvsp.irPPv 91 
+                            r+ rrkrasatqly+tcka+GtcPpdvipkve+tt+ad+ilk+gslgvf+GGlGiGtG+G+GGr+Gy+Plg+ p+ + +  p +rPPv
+            AAA46934.1   3 PRARRRKRASATQLYQTCKATGTCPPDVIPKVEHTTIADQILKWGSLGVFFGGLGIGTGAGSGGRAGYIPLGSSPKPAITGGPaARPPV 91 
+                           5999***********************************************************************9888666527**** PP
+
+  high_riskL2_seed_msa  92 vvepvGPldpsivslveessviesGapvPsitgtsGfdittsadttPailditsvsssvqivsthtnPtftdPsvlepPataevsGhll 180
+                            vepv P+dpsivsl+ees++i++Gap    ++++Gf+it+s +ttPaild++ +++  +++s  +nP ft+Psv++p  + e+sGh+l
+            AAA46934.1  92 LVEPVAPSDPSIVSLIEESAIINAGAPEVVPPTQGGFTITSSESTTPAILDVSVTNH--TTTSVFQNPLFTEPSVIQPQPPVEASGHIL 178
+                           ***************************99989999****************985554..567778************************ PP
+
+  high_riskL2_seed_msa 181 lssptisthsyeeiPldtfvvstdseevisstPiPgvrrvarlglysratqqvkvvdpafltsPsklvtydnPafegvdadetlafees 269
+                           +s+pti+++  e+iPldtfvvs++ + ++sstP+P   +  r+glysra qqv+v+dpafl++P++lvtydnP++eg   d +l+f ++
+            AAA46934.1 179 ISAPTITSQHVEDIPLDTFVVSSSDSGPTSSTPLPRAFPRPRVGLYSRALQQVQVTDPAFLSTPQRLVTYDNPVYEGE--DVSLQFTHE 265
+                           *****************************************************************************9..99******* PP
+
+  high_riskL2_seed_msa 270 disiaPdpdfldiialhrPaltsrrgtvrfsrlGkkatlrtrsGkqiGarvhyyqdispiapaeeeielqpllsastsindglydiyad 358
+                           +i++aPd  f+dii+lhrPa+tsrrg vrfsr+G++ ++ trsG++iGar+hy+qdisp+++a eeiel pl+ a    nd  +diya+
+            AAA46934.1 266 SIHNAPDEAFMDIIRLHRPAITSRRGLVRFSRIGQRGSMYTRSGQHIGARIHYFQDISPVTQAAEEIELHPLVAA---END-TFDIYAE 350
+                           ************************************************************************988...566.89****8 PP
+
+  high_riskL2_seed_msa 359 d.dtavdtkstl...sslktvastlaatktsnvtvPlssgfdvPvvsGPdivlpstesasplvPiaplsptksiivdgadfvlhPsyyl 443
+                             d++ d  +++   s l++++ t  +++  n+tvPls   d  v sGPdi++p+ ++ +p+ P++p+ pt  +++ g+df+lhP++y+
+            AAA46934.1 351 PfDPIPDPVQHSvtqSYLTSTPNT-LSQSWGNTTVPLSIPSDWFVQSGPDITFPTASMGTPFSPVTPALPTGPVFITGSDFYLHPTWYF 438
+                           778887754444222444444444.578889********************************************************** PP
+
+  high_riskL2_seed_msa 444 lrrrrkripyffadvs 459
+                            rrrrkrip ff+dv 
+            AAA46934.1 439 ARRRRKRIPLFFTDVA 454
+                           **************85 PP
+
+>> CAA52571.1  late protein [human papillomavirus 40]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  603.0  15.3  1.4e-184  1.4e-184       1     451 [.       1     459 [.       1     466 [. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 603.0 bits;  conditional E-value: 1.4e-184
+  high_riskL2_seed_msa   1 mrskrstrrkrasatqlyktckasGtcPpdvipkvegttladkilkygslgvflGGlGiGtGsGtGGrtGyvPlgtrpstv.....vdv 84 
+                           m+s r  rrkrasatqly+tcka+GtcPpdv++kve+tt+ad+ilk+gs+gvf+GGlGiG+GsGtGGr+GyvPl+t + +v     v+ 
+            CAA52571.1   1 MVSSRPRRRKRASATQLYQTCKAAGTCPPDVVHKVEQTTVADQILKWGSMGVFFGGLGIGSGSGTGGRAGYVPLSTGSRAVppkslVPD 89 
+                           8999**********************************************************************997655411111566 PP
+
+  high_riskL2_seed_msa  85 spirPPvvvepvGPldpsivslveessviesGapvPsitgtsGfdittsadttPailditsvsssvqivsthtnPtftdPsvlepPata 173
+                             +rPPvvv++v P+dpsivsl+eess+i+sGap  +i++++Gf++t+s++  Paild++s+++   + +th+nP ftdPsv++p  + 
+            CAA52571.1  90 VVARPPVVVDTVAPSDPSIVSLIEESSIIQSGAPSLTIPTEGGFSVTSSGTDVPAILDVSSTNTVHVTATTHHNPVFTDPSVVQPIPPV 178
+                           779*******************************************************99876666667889***************** PP
+
+  high_riskL2_seed_msa 174 evsGhlllssptisthsyeeiPldtfvvstdseevisstPiPgvrrvarlglysratqqvkvvdpafltsPsklvtydnPafegvdade 262
+                           e++G+l++s +ti+t + eeiPldtfvv++d   ++sstP+Pg++   rlglys+a qqv++vdpafl++P++l+tydnP+fe+v  d+
+            CAA52571.1 179 EAGGRLIVSHSTITTSAAEEIPLDTFVVHSD---PLSSTPVPGTSGRPRLGLYSKALQQVEIVDPAFLSTPQRLITYDNPVFENV--DD 262
+                           ****************************975...79************************************************9..** PP
+
+  high_riskL2_seed_msa 263 tlafeesdisiaPdpdfldiialhrPaltsrrgtvrfsrlGkkatlrtrsGkqiGarvhyyqdispiapaeeeielqpll......... 342
+                           tl+fe+ +i+ aPdp f+dii+lhrPaltsrrg +rfsr+G++ t+ tr+G++iG+rvh+++dispi +a++ iel pl+         
+            CAA52571.1 263 TLQFEQPSIHDAPDPAFMDIITLHRPALTSRRGVIRFSRVGQRGTMYTRRGTRIGGRVHFFRDISPIGAADD-IELHPLVasaphtlet 350
+                           ********************************************************************8865.******9777766555 PP
+
+  high_riskL2_seed_msa 343 .sas....tsindglydiyadddtavdtkstlsslktvastlaatktsnvtvPlssgfdvPvvsGPdivlpstesasplvPiaplsptk 426
+                            + +     +++d+l+d+yad+dt+ d  ++++   +++ +  +t+ sn+++Pl+++ d+ ++sGPdiv+ps +  +p++P++p+ p  
+            CAA52571.1 351 pH-TletpLDTTDALFDVYADMDTIDDDAAYAT--FSLHPA-DSTRISNTSIPLATVSDTLLTSGPDIVFPSIPAGTPYLPVSPSIPAI 435
+                           41.05666899*************999888865..334443.4799******************************************* PP
+
+  high_riskL2_seed_msa 427 siivdgadfvlhPsyyllrrrrkri 451
+                           s++++g+d++lhP yyl r+rrkri
+            CAA52571.1 436 SVLIHGTDYYLHPAYYL-RKRRKRI 459
+                           **************996.6778887 PP
+
+>> NP_043293.1  minor capsid protein [Human papillomavirus type 54]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  600.1  17.5  1.1e-183  1.1e-183       1     462 []       1     470 []       1     470 [] 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 600.1 bits;  conditional E-value: 1.1e-183
+  high_riskL2_seed_msa   1 mrskrstrrkrasatqlyktckasGtcPpdvipkvegttladkilkygslgvflGGlGiGtGsGtGGrtGyvPlgtrpstvvdvspirP 89 
+                           m + r+ rrkrasatqly+tckasGtcP+dvipkvegtt+ad+il++gs+gvf+GGlGiGtGsGtGGrtGy+Plg  ++t  +  p+rP
+           NP_043293.1   1 MAKARAPRRKRASATQLYQTCKASGTCPSDVIPKVEGTTIADQILRWGSMGVFFGGLGIGTGSGTGGRTGYIPLGRPSTTLEPGPPVRP 89 
+                           7889***********************************************************************8888888******* PP
+
+  high_riskL2_seed_msa  90 PvvvepvGPldpsivslveessviesGapvPsitgtsGfdittsadttPailditsvsssvqivsth.tnPtftdPsvlepPataevsG 177
+                             +ve+v P+dpsivslveessv+++Gap+P+i++++Gf+i+ts+d+tPaild+ts+++ ++++ t+ +nP +t+Ps+l+pP + ++ G
+           NP_043293.1  90 AGAVETVAPSDPSIVSLVEESSVVDVGAPTPTIPSQGGFEIATSSDATPAILDVTSTTTPIRVSITShDNPIYTEPSLLDPPPPVQMDG 178
+                           *************************************************************9876655********************* PP
+
+  high_riskL2_seed_msa 178 hlllssptisthsyeeiPldtfvvstdseevisstPiPgvrrvarlglysratqqvkvvdpafltsPsklvtydnPafegvdadetlaf 266
+                           ++l+s++t  + + e+iP+dtf++  d    ++stPiP      rlglysra qqv v dpafl++Ps+l+tydnP++eg  +d tl+f
+           NP_043293.1 179 RVLVSTSTLQSSTAENIPMDTFIIMQDHIGTTTSTPIPRPPARPRLGLYSRALQQVPVQDPAFLQQPSSLITYDNPVYEGN-PDVTLHF 266
+                           **************************************9999999***********************************7.******* PP
+
+  high_riskL2_seed_msa 267 eesdisiaPdpdfldiialhrPaltsrrgtvrfsrlGkkatlrtrsGkqiGarvhyyqdispiapaeeeielqpllsas.tsindgl.. 352
+                           e+ +i++aPdp f+di alhrPalt+rrg vr+sr+G++atl+trsG q+  rvh++qd+spia + eeiel pl+sa+ tsin+gl  
+           NP_043293.1 267 EQPTIHNAPDPAFMDIFALHRPALTTRRGVVRYSRVGDRATLHTRSGLQLKPRVHFFQDLSPIAHVPEEIELHPLISANnTSINNGLys 355
+                           ****************************************************************************9887889998733 PP
+
+  high_riskL2_seed_msa 353 ..ydiyadddtavdtkstl......sslktvastlaatktsnvtvPlssgfdvPvvsGPdivlpstesasplvPiaplsptksiivdga 433
+                             yd+yad+d+a +  +++      s ++++++t+  +++ n+tvPl+++   P +  P    p ++ ++p+vP  p+ p++ i v+g+
+           NP_043293.1 356 diYDVYADTDFADTGGFSSstvshsSVQTALQTTSIPSQYGNTTVPLTASS--PYTPIPTSFRP-SSGHTPFVPARPIFPQTPIAVNGG 441
+                           3369****9887765444334556455567788889999********9874..55555655555.45689******************* PP
+
+  high_riskL2_seed_msa 434 dfvlhPsyyllrrrrkripyffadvsvaa 462
+                           df+lhPsy ++r+rrkr+pyf+ad++vaa
+           NP_043293.1 442 DFYLHPSYTYVRKRRKRFPYFLADGYVAA 470
+                           ***************************97 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (462 nodes)
+Target sequences:                          7  (3291 residues searched)
+Passed MSV filter:                         7  (1); expected 0.1 (0.02)
+Passed bias filter:                        7  (1); expected 0.1 (0.02)
+Passed Vit filter:                         7  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         7  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  7  [actual number of targets]
+Domain search space  (domZ):               7  [number of targets reported over threshold]
+# CPU time: 0.21u 0.01s 00:00:00.22 Elapsed: 00:00:00.23
+# Mc/sec: 6.59
+//
+[ok]
