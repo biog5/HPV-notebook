@@ -255,60 +255,6 @@ import time
 import os
 
 
-def run_blast(query_file, subject_file, output_file):
-    base_url = 'https://blast.ncbi.nlm.nih.gov/Blast.cgi'
-
-    # Leer el contenido de los archivos
-    with open(query_file, 'r') as f:
-        query_sequence = f.read()
-    with open(subject_file, 'r') as f:
-        subject_sequence = f.read()
-
-    # Configurar los parámetros para la solicitud POST
-    payload = {
-        'CMD': 'Put',
-        'PROGRAM': 'blastp',  # Asegúrate de usar 'blastn' para ADN
-        'QUERY': query_sequence,
-        'SUBJECTS': subject_sequence
-    }
-
-    # Enviar la solicitud POST
-    response = requests.post(base_url, data=payload)
-    response.raise_for_status()
-
-    # Extraer el ID de la búsqueda (RID) de la respuesta
-    result_page = response.text
-    rid = None
-    split=result_page.splitlines()
-    for line in result_page.splitlines():
-        print(line)
-        if line.startswith("RID = "):
-            rid = line[6:]
-
-    if rid is None:
-        raise Exception("No se pudo obtener el RID del resultado")
-
-    # Esperar a que el resultado esté listo
-    payload = {
-        'CMD': 'Get',
-        'RID': rid
-    }
-    while True:
-        time.sleep(10)  # Esperar 10 segundos antes de verificar nuevamente
-        response = requests.post(base_url, data=payload)
-        response.raise_for_status()
-        result_page = response.text
-        if "Status=WAITING" in result_page:
-            continue
-        elif "Status=READY" in result_page:
-            break
-        else:
-            raise Exception("Error en el estado de la búsqueda")
-
-    # Guardar el resultado en el archivo de salida
-    with open(output_file, 'w') as f:
-        f.write(result_page)
-
 
 # Puedes utilizar la función run_blast pasando tus dos archivos de entrada y el nombre del archivo de salida, como se muestra a continuación:
 
@@ -325,7 +271,7 @@ import time
 import os
 
 
-def AlinearRiesgos():
+def AlinearRiesgos0():
     global cont_querry
     cont_querry = 0
     for gen in genes:
@@ -367,6 +313,74 @@ def AlinearRiesgos():
                 comparaciones_full[2][archivo_entrada] = lista_aux3
 
     print("Calculos terminados se analizaran resultados: ")
+
+
+import os
+import subprocess
+import Bio
+import Bio.AlignIO as bpio
+
+def AlinearRiesgos():
+    global cont_querry
+    cont_querry = 0
+    for gen in genes:
+        archivo_low = "BD/low_risk" + gen + '.fasta'
+        archivo_unspecified = "BD/unspecified_risk" + gen + '.fasta'
+        archivo_high2 = "BD/high_risk" + gen + '.fasta'
+
+        for genoma in high_risk:  # por cada genoma y gen de alto rieago
+            archivo_entrada = BuscarNombres(str(genoma), str(gen))
+            if archivo_entrada != None:
+                archivo_high = 'BD/' + archivo_entrada + '.fasta'
+                archivo_salida = "BD/" + genoma + gen + "_high_vs_" + gen + "_low.blast"
+                archivo_salida2 = "BD/" + genoma + gen + "_high_vs_" + gen + "_unspecified.blast"
+                archivo_salida3 = "BD/" + genoma + gen + "_high_vs_" + gen + "_high.blast"
+                # Verificar si los archivos de entrada existen
+                if not os.path.exists(archivo_high):
+                    print(f"El archivo de entrada {archivo_high} no existe.")
+                    continue
+                if not os.path.exists(archivo_low):
+                    print(f"El archivo de entrada {archivo_low} no existe.")
+                    continue
+                if not os.path.exists(archivo_unspecified):
+                    print(f"El archivo de entrada {archivo_unspecified} no existe.")
+                    continue
+                # Eliminar archivos de salida existentes
+                if os.path.exists(archivo_salida):
+                    os.remove(archivo_salida)
+                if os.path.exists(archivo_salida2):
+                    os.remove(archivo_salida2)
+                if os.path.exists(archivo_salida3):
+                    os.remove(archivo_salida3)
+                # correr
+                blast1 = ["blastp", "-query", archivo_high, "-subject", archivo_low, "-out", archivo_salida]
+                blast2 = ["blastp", "-query", archivo_high, "-subject", archivo_unspecified, "-out", archivo_salida2]
+                blast3 = ["blastp", "-query", archivo_high, "-subject", archivo_high2, "-out", archivo_salida3]
+                # correr
+                print(blast1)
+                result = subprocess.run(blast1, stdout=PIPE)
+                print("Corriendo BLASTP ---> Cepa:", genoma, " Proteina:", gen, " Contra grupo: Bajo riego ")
+                result2 = subprocess.run(blast2, stdout=PIPE)
+                print("Corriendo BLASTP ---> Cepa:", genoma, " Proteina:", gen, " Contra grupo: No especificado riego ")
+                result3 = subprocess.run(blast3, stdout=PIPE)
+                print("Corriendo BLASTP ---> Cepa:", genoma, " Proteina:", gen, " Contra grupo: Alto riego ")
+                archivos_temp.append(archivo_salida)
+                archivos_temp.append(archivo_salida2)
+                archivos_temp.append(archivo_salida3)
+                # Analizar resultados
+                if os.path.exists(archivo_salida):
+                    resultados = list(bpio.parse(archivo_salida, 'blast-text'))
+                    cepa_query, lista_aux = Recorrer(resultados, genoma, gen, 0)
+                    comparaciones_full[0][archivo_entrada] = lista_aux
+                if os.path.exists(archivo_salida2):
+                    resultados2 = list(bpio.parse(archivo_salida2, 'blast-text'))
+                    cepa_query2, lista_aux2 = Recorrer(resultados2, genoma, gen, 1)
+                    comparaciones_full[1][archivo_entrada] = lista_aux2
+                if os.path.exists(archivo_salida3):
+                    resultados3 = list(bpio.parse(archivo_salida3, 'blast-text'))
+                    cepa_query3, lista_aux3 = Recorrer(resultados3, genoma, gen, 2)
+                    comparaciones_full[2][archivo_entrada] = lista_aux3
+    return comparaciones_full
 
 ############################# 2.3: Análisis
 lista_cepas = []
