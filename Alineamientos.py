@@ -345,13 +345,13 @@ def AlinearRiesgos():
                 blast2 = ["blastp", "-query", archivo_high, "-subject", archivo_unspecified, "-out ", archivo_salida2]
                 blast3 = ["blastp", "-query", archivo_high, "-subject", archivo_high2, "-out ", archivo_salida3]
                 # correr
+                print(blast1)
                 result = subprocess.run(blast1,stdout=PIPE)
                 print("Corriendo BLASTP ---> Cepa:", genoma, " Proteina:", gen, " Contra grupo: Bajo riego ")
                 result2 = subprocess.run(blast2,stdout=PIPE)
                 print("Corriendo BLASTP ---> Cepa:", genoma, " Proteina:", gen, " Contra grupo: No especificado riego ")
                 result3 = subprocess.run(blast3,stdout=PIPE)
                 print("Corriendo BLASTP ---> Cepa:", genoma, " Proteina:", gen, " Contra grupo: Alto riego ")
-                print(blast1)
                 archivos_temp.append(archivo_salida)
                 archivos_temp.append(archivo_salida2)
                 archivos_temp.append(archivo_salida3)
