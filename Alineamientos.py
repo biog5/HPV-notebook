@@ -477,8 +477,8 @@ def AnalizarA():
 
 def Main():
     print("1: Obteniendo datos y agrupandolos por riesgo, espere por favor ...")
-    # Limpiar(archivos_agrupados)  # Solo una vez al iniciar y lo dejo xq lo necesita MSA
-    # Limpiar(archivos_agrupados_gen)
+    Limpiar(archivos_agrupados)  # Solo una vez al iniciar y lo dejo xq lo necesita MSA
+    Limpiar(archivos_agrupados_gen)
     Limpiar(archivos_temp)
     # Revisar que los archivos no se esten regrabando xq darian error
     AgruparRiesgos()
