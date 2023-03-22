@@ -17,6 +17,7 @@ import numpy as np
 import pandas as pd
 from Bio import AlignIO
 from Bio.Align.Applications import ClustalOmegaCommandline
+from subprocess import PIPE, run
 
 import Alineamientos
 import CargaBD
@@ -113,12 +114,10 @@ def CorrerClustalOmega():
         clustalomega_cline = ClustalOmegaCommandline(
             infile=archivo_entrada, outfile=archivo_salida, outfmt='phylip', verbose=True, auto=False)
         # print("Corriendo: ", clustalomega_cline)
-
-        # Por practicidad lo corremos portable en windows
-        clustal = '"clustal-omega-1.2.2-win64/clustalo.exe"' + ' -i ' + \
-                  archivo_entrada + ' -o ' + archivo_salida + ' --outfmt phylip -v --force'
-        result = subprocess.run(clustal, stdout=PIPE)
+        clustal = 'clustalo' + ' -i ' + archivo_entrada + ' -o ' + archivo_salida + ' --outfmt phylip -v --force'
+        result = run(clustal, stdout=PIPE, shell=True, check=True)
         archivos_MSA.append(archivo_salida)
+
     return archivos_MSA
 
 
