@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # TP6 Grupo Nº 5
 # Perez Ernesto Rafael rafaelperezctes@gmail.com Sofia Erdozain sofierdozain@gmail.com
 # Created on Wed Nov  3 14:02:59 2021
 

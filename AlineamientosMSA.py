@@ -14,6 +14,8 @@ import Main as principal
 import Utils
 import sys
 import Bio.SeqIO as bsio
+from subprocess import PIPE, run
+
 
 archivos_MSA = []
 archivos_agrupados = []
@@ -92,8 +94,9 @@ def CorrerClustalOmega():
         print("Corriendo Clustal Omega ---> Grupo:", riesgo, " Proteina:", proteina, "espere por favor ...")
         # Por practicidad lo corremos portable en windows
         # clustal='"clustal-omega-1.2.2-win64/clustalo.exe"' + ' -i '+ archivo_entrada + ' -o '+ archivo_salida +' --infmt a2m --outfmt phylip -v --force'
-        clustal = '"clustal-omega-1.2.2-win64/clustalo.exe"' + ' -i ' + archivo_entrada + ' -o ' + archivo_salida + ' --outfmt phylip -v --force'
-        result = subprocess.run(clustal, stdout=PIPE)
+        #clustal = '"clustal-omega-1.2.2-win64/clustalo.exe"' + ' -i ' + archivo_entrada + ' -o ' + archivo_salida + ' --outfmt phylip -v --force'
+        clustal = 'clustalo' + ' -i ' + archivo_entrada + ' -o ' + archivo_salida + ' --outfmt phylip -v --force'
+        result = run(clustal, stdout=PIPE, shell=True, check=True)
         archivos_MSA.append(archivo_salida)
     print()
 
