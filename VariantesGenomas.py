@@ -35,17 +35,35 @@ def Lee2Genomas(nombre1, nombre2):
         align2 = bsio.read(archivo2, 'fasta')
         return align1, align2
 
+import numpy as np
+import pandas as pd
+from Bio import Align
+
+
 
 def AlinearGenomasAPares(nombre1, nombre2):
     seq1, seq2 = Lee2Genomas(nombre1, nombre2)
     aligner = Align.PairwiseAligner()
     tamanio = int(len(seq1.seq))
     matriz = np.zeros((tamanio, tamanio))
+    
+    # Realiza el alineamiento de secuencias
     alignments = aligner.align(seq1.seq, seq2.seq)
-    # Lo paso a tablas
+        # Lo paso a tablas
     x = alignments[0]
-    query_alineado = list(str(x).splitlines()[0])
-    target_alineado = list(str(x).splitlines()[2])
+    #query_alineado = list(str(x).splitlines()[0])
+    #target_alineado = list(str(x).splitlines()[2])
+    
+    secuencias_string=[]
+    for i in x:
+        secuencias_string.append(str(i))
+
+    #print(len(query_alineado),len(secuencias_string[0]))
+    #print(len(target_alineado),len(secuencias_string[1]))
+    query_alineado = list(secuencias_string[0])
+    target_alineado = list(secuencias_string[1])
+    print(query_alineado)
+    print(target_alineado)
     c = 0
     for i in range(tamanio):
         if (query_alineado[i] == target_alineado[i]):
